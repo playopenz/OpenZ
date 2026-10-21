@@ -184,7 +184,7 @@ feeling of the original. This is where it started, and where it is now:
 [OpenZ_1.1_mac_EXPERIMENTAL.zip](https://github.com/playopenz/OpenZ/releases/latest/download/OpenZ_1.1_mac_EXPERIMENTAL.zip),
 unzip it, then right-click the game and choose **Open** on the first start (it is not signed). See
 `HOW_TO_START_ON_A_MAC.txt` inside. It is an Intel build and has not been tested on many Macs yet.
-Linux, or a different Mac build: see the [community builds by fenio](https://github.com/fenio/OpenZ) (unofficial, 1.0).
+Apple Silicon Mac or Linux: see the [community builds by fenio](https://github.com/fenio/OpenZ/releases/tag/v1.1-unofficial.1) (unofficial, 1.1, native Apple Silicon + Intel Mac and Linux).
 
 **Want to be sure your download is the original?** The checksums are in
 [RELEASE_SHA256.txt](https://github.com/playopenz/OpenZ/releases/latest/download/RELEASE_SHA256.txt). Check yours in
@@ -249,8 +249,8 @@ first start right-click the game and choose **Open** (see `HOW_TO_START_ON_A_MAC
 on many Macs yet, so please tell us how it runs for you.
 
 **Is there a Linux version?**
-Not from us yet. Our fan **fenio** made unofficial Mac and Linux builds of OpenZ 1.0, for anyone who would like to try
-it without building it themselves: [github.com/fenio/OpenZ](https://github.com/fenio/OpenZ). Thank you, fenio! These
+Not from us yet. Our fan **fenio** made unofficial **OpenZ 1.1** builds for Linux and for Mac (native Apple Silicon and Intel),
+for anyone who would like to try it without building it themselves: [fenio's 1.1 builds](https://github.com/fenio/OpenZ/releases/tag/v1.1-unofficial.1). Thank you, fenio! These
 builds are made and looked after by him, not by us.
 
 **Are any original models or resources used?**

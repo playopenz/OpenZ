@@ -282,4 +282,7 @@ to their respective owners.
 sounds, music, voice recordings, art or logos. Every model, texture, sound, voice, music track and interface element
 was newly made for OpenZ.
 
+More about the original Z: [Z Wiki](https://zzed.fandom.com/wiki/Z_%28video_game%29) ·
+[ZZone fan site](https://zzone.lewe.com/) · [PCGamingWiki](https://www.pcgamingwiki.com/wiki/Z)
+
 Contact: openzhq@gmail.com · [Discord (ZZone server)](https://discord.gg/WjFqg35PsE) · [YouTube](https://www.youtube.com/@playopenz)

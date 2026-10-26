@@ -153,14 +153,17 @@ hard piece of work, level by level and unit by unit. Each battlefield is laid ou
 polished again, often many times over, until it feels like the Z you remember. Every unit's stats, timings, sounds and
 little reactions get tested in real matches, and every bug a player reports goes onto the list and gets fixed.
 
-<p align="center">
-  <img src="media/making/making_process_1.jpg" alt="OpenZ running in the Unity editor: a battle on the Car Park level with the debug unit panels open" width="100%">
-</p>
-<p align="center">
-  <img src="media/making/making_process_2.jpg" alt="The Car Park level open in the Unity editor at night: the scene hierarchy, the project folders and the game view" width="100%">
-</p>
+<table>
+  <tr>
+    <td width="50%"><a href="media/making/making_process_1.jpg"><img src="media/making/making_process_1.jpg" alt="OpenZ running in the Unity editor: a battle on the Car Park level with the debug unit panels open"></a></td>
+    <td width="50%"><a href="media/making/making_process_2.jpg"><img src="media/making/making_process_2.jpg" alt="The Car Park level open in the Unity editor at night: the scene hierarchy, the project folders and the game view"></a></td>
+  </tr>
+</table>
 
 ## Screenshots
+
+**From version 1.2, the free camera is on:** hold the middle mouse button and move the mouse to turn and tilt the view,
+and enjoy the battlefield in full 3D from any angle, right in the game.
 
 <table>
   <tr>
@@ -183,7 +186,7 @@ little reactions get tested in real matches, and every bug a player reports goes
 
 <p align="center"><b><a href="docs/SCREENSHOTS.md">More screenshots (all 66)</a></b></p>
 
-## Unit editor (coming in 1.2)
+## Unit editor (version 1.2 and later)
 
 A playground for every unit in the game, opened right from the main menu. There are no factories, no fort and no
 winner: drop robots, vehicles and guns of the red and blue teams onto an open battlefield, give orders to both sides,
@@ -195,10 +198,13 @@ Z Wiki, and your own **Custom** set that you can edit and test straight away. A 
 a glance. Save your setup to a file on your own disk and share it with friends, or send it to us if you find
 something interesting: OpenZ itself sends nothing anywhere.
 
+**[Read the full guide to the Unit editor](docs/UNIT_EDITOR.md)**: every button, the stat sets, custom stats, saving
+and sharing, keys and tips for balance testing.
+
 <table>
   <tr>
     <td width="50%"><a href="media/unit_editor/unit_editor_1.jpg"><img src="media/unit_editor/unit_editor_1.jpg" alt="The Unit editor: red and blue units fighting around holographic obstacles, with the balance view open on the right"></a></td>
-    <td width="50%"><a href="media/unit_editor/unit_editor_2.jpg"><img src="media/unit_editor/unit_editor_2.jpg" alt="A huge blue robot army charging a single veteran tank in the Unit editor"></a></td>
+    <td width="50%"><a href="media/unit_editor/unit_editor_2.jpg"><img src="media/unit_editor/unit_editor_2.jpg" alt="A huge blue robot army charging a single veteran missile launcher in the Unit editor"></a></td>
   </tr>
 </table>
 

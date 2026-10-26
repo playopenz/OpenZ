@@ -57,6 +57,9 @@ back.
 
 ## The dock
 
+<p align="center"><a href="../media/unit_editor/ue_10_dock_grenades.jpg"><img src="../media/unit_editor/ue_10_dock_grenades.jpg" alt="The dock: the team switch, x1 / x3 / x5, the tabs, the tiles, and the EXTRAS with the flag, the obstacle and the grenades." width="100%"></a></p>
+<p align="center"><i>The dock: the team switch, x1 / x3 / x5, the tabs, the tiles, and the EXTRAS with the flag, the obstacle and the grenades.</i></p>
+
 The dock is one row at the bottom of the screen.
 
 - **RED / BLUE / NEUTRAL**: the side your next units join. Keys **1** (blue), **2** (red) and **3** (neutral) do the same.
@@ -117,6 +120,9 @@ which set it runs, for example *LASER 1868 / 2027 HP · CUSTOM*.
 
 ## The neutral flag
 
+<p align="center"><a href="../media/unit_editor/ue_05_flag_captured.jpg"><img src="../media/unit_editor/ue_05_flag_captured.jpg" alt="A red grunt squad has just taken the neutral flag." width="100%"></a></p>
+<p align="center"><i>A red grunt squad has just taken the neutral flag.</i></p>
+
 The **FLAG** extra places the game's own capture flag, neutral. It works as in the levels: the first robot or vehicle
 of another team that touches it takes it for its team (never the shuttle or a gun). It can be taken back, but after a
 change it holds for one second before it can change again. Pick units and right-click the flag to send them all onto
@@ -126,6 +132,9 @@ Use it to test capturing, and fighting over a capture. The stats box shows the f
 taken, and a short message on screen tells you who took it from whom.
 
 ## The holographic obstacle
+
+<p align="center"><a href="../media/unit_editor/ue_06_obstacle_line_of_sight.jpg"><img src="../media/unit_editor/ue_06_obstacle_line_of_sight.jpg" alt="A picked squad: the dashed line with a cross shows an enemy the obstacle hides." width="100%"></a></p>
+<p align="center"><i>A picked squad: the dashed line with a cross shows an enemy the obstacle hides.</i></p>
 
 The **OBSTACLE** extra places a neutral holographic box, 6 by 6 metres and 3 metres tall, with 10,000 HP.
 
@@ -164,6 +173,9 @@ from OpenZ's own number. Click (or right-click) a row to open that unit's full s
 
 ### STATS: one unit
 
+<p align="center"><a href="../media/unit_editor/ue_03_stats_custom_value.jpg"><img src="../media/unit_editor/ue_03_stats_custom_value.jpg" alt="A jeep's page with a Custom value changed: every jeep on the field, both teams, now has 2000 HP." width="100%"></a></p>
+<p align="center"><i>A jeep's page with a Custom value changed: every jeep on the field, both teams, now has 2000 HP.</i></p>
+
 A click on a unit on the field, a row of the list, or a right-click on a dock tile opens the unit's own page:
 
 - its picture (drag it onto the field to place more), name, kind and how many are on the field;
@@ -179,10 +191,16 @@ A flag or an obstacle gets its own small page with what it does and its live sta
 
 ### The unit card
 
+<p align="center"><a href="../media/unit_editor/ue_04_unit_card.jpg"><img src="../media/unit_editor/ue_04_unit_card.jpg" alt="The unit card: a grunt's 14 stats in the four sets side by side." width="100%"></a></p>
+<p align="center"><i>The unit card: a grunt's 14 stats in the four sets side by side.</i></p>
+
 The **i** on a dock tile or a list row opens the **UNIT CARD**: a bigger card with the unit's picture, what it is, and
 all 14 stats of the four sets side by side. The **<** and **>** buttons step through the units.
 
 ### BALANCE
+
+<p align="center"><a href="../media/unit_editor/ue_02_balance_linear.jpg"><img src="../media/unit_editor/ue_02_balance_linear.jpg" alt="The BALANCE tab: one stat (here the squad size) for every unit, four bars per unit." width="100%"></a></p>
+<p align="center"><i>The BALANCE tab: one stat (here the squad size) for every unit, four bars per unit.</i></p>
 
 The BALANCE tab (key **B**) shows **one stat for every unit** at once. Each unit gets four thin bars, one per set, all
 on the same scale, the value of the set in use, and the biggest gap to another set when it is over 5 %. The arrows or
@@ -191,6 +209,9 @@ in the legend switches the field to that set. **Game order / High first** sorts 
 the bars' scale (log keeps small values visible).
 
 ### TABLE
+
+<p align="center"><a href="../media/unit_editor/ue_01_table.jpg"><img src="../media/unit_editor/ue_01_table.jpg" alt="The TABLE: every unit and every stat of the set in use, over the fight." width="100%"></a></p>
+<p align="center"><i>The TABLE: every unit and every stat of the set in use, over the fight.</i></p>
 
 **TABLE** (key **T**) opens one big sheet over the field: **every unit and every stat** of the set in use. You can
 switch the set there too, show a small **+/- %** under every value against another set (**DELTAS VS**), and show only
@@ -278,6 +299,9 @@ be played in the levels.
 
 ## SAVE, LOAD, SHARE and RESET STATS
 
+<p align="center"><a href="../media/unit_editor/ue_07_load_window.jpg"><img src="../media/unit_editor/ue_07_load_window.jpg" alt="The LOAD window: your stats files, newest first." width="100%"></a></p>
+<p align="center"><i>The LOAD window: your stats files, newest first.</i></p>
+
 All of these are in the top bar.
 
 - **SAVE** keeps your Custom stats as the ones the levels can play (see above) and writes a small file called
@@ -298,6 +322,9 @@ All of these are in the top bar.
   back.
 
 ## Time controls
+
+<p align="center"><a href="../media/unit_editor/ue_09_big_battle_x5.jpg"><img src="../media/unit_editor/ue_09_big_battle_x5.jpg" alt="A big mixed battle, dropped with x5 on both sides." width="100%"></a></p>
+<p align="center"><i>A big mixed battle, dropped with x5 on both sides.</i></p>
 
 The play bar sits just above the dock.
 
@@ -329,6 +356,9 @@ a true length on the ground. Note that in the Unit editor the **middle** button 
 moves it.
 
 ## Backgrounds
+
+<p align="center"><a href="../media/unit_editor/ue_08_background_menu.jpg"><img src="../media/unit_editor/ue_08_background_menu.jpg" alt="The BACKGROUND menu: ten floor styles and the SHOW options." width="100%"></a></p>
+<p align="center"><i>The BACKGROUND menu: ten floor styles and the SHOW options.</i></p>
 
 The **gear** at the top left, next to the unit counts, opens **BACKGROUND**: ten floor styles drawn by the game, switched
 with one click. They are *Survey grid*, *Dot lattice*, *Micro-hex*, *Topographic*, *Range rings*, *Scan lines*,

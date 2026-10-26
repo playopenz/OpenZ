@@ -299,7 +299,7 @@ be played in the levels.
 
 ## SAVE, LOAD, SHARE and RESET STATS
 
-<p align="center"><a href="../media/unit_editor/ue_07_load_window.jpg"><img src="../media/unit_editor/ue_07_load_window.jpg" alt="The LOAD window: your stats files, newest first." width="100%"></a></p>
+<p align="center"><a href="../media/unit_editor/ue_07_load_window.jpg"><img src="../media/unit_editor/ue_07_load_window.jpg" alt="The LOAD window: your stats files, newest first." width="420"></a></p>
 <p align="center"><i>The LOAD window: your stats files, newest first.</i></p>
 
 All of these are in the top bar.

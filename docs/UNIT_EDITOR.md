@@ -2,13 +2,12 @@
 
 # The Unit editor
 
-> **In OpenZ version 1.2 and later.** The Unit editor is not in OpenZ 1.1. This page describes it as it is built for
-> 1.2; small details may still change before the release.
+> **Part of OpenZ from version 1.2.** OpenZ is an ongoing project, and this page grows with every update.
 
 <p align="center">
   <a href="../media/unit_editor/unit_editor_1.jpg"><img src="../media/unit_editor/unit_editor_1.jpg" alt="The Unit editor: blue and red units fighting around two holographic obstacles, the BALANCE tab open on the right showing every unit's build time" width="100%"></a>
 </p>
-<p align="center"><i>The Unit editor with the BALANCE tab open (a picture from a test build).</i></p>
+<p align="center"><i>The Unit editor with the BALANCE tab open.</i></p>
 
 ## What it is
 
@@ -18,7 +17,7 @@ with no factories, no fort, no computer commander and no winning or losing. You 
 the levels: they shoot at what comes into range. Nobody announces victory or defeat, because there is none.
 
 On the right sits a **stats box** with every unit's numbers: build time, health, damage, range and the rest. You can
-switch the whole field between four sets of numbers: **OpenZ** (the game's own), **ZodEngine**, **Z-Wiki** and your own
+switch the whole field between four sets of numbers: **OpenZ** (the game's own), **[ZodEngine](https://sourceforge.net/projects/zod/)**, **[Z-Wiki](https://zzed.fandom.com/wiki/Z_%28video_game%29)** and your own
 **Custom** set, which you can edit and see in action straight away.
 
 ## What it is for
@@ -27,7 +26,7 @@ switch the whole field between four sets of numbers: **OpenZ** (the game's own),
   against a row of jeeps? Put them down and find out.
 - **Testing interactions.** Robots climbing into empty vehicles and guns, capturing a flag, picking up grenades,
   shooting around (or through) an obstacle.
-- **Balance experiments.** Compare OpenZ's numbers with the Zod Engine's and the Z fan wiki's, change any value in the
+- **Balance experiments.** Compare OpenZ's numbers with the [Zod Engine](https://sourceforge.net/projects/zod/)'s and the [Z fan wiki](https://zzed.fandom.com/wiki/Z_%28video_game%29)'s, change any value in the
   Custom set, and watch what it does to a fight.
 - **Big battles just for fun.** Up to 200 units a side.
 - **Sharing.** Save a setup to a file on your own computer and send it to friends, or post it for us if you found
@@ -209,8 +208,8 @@ here, and what the levels use.
 | Set | What it is |
 |---|---|
 | **OpenZ** | This game, as played: the numbers the levels use, read from the game itself when the editor opens. |
-| **ZodEngine** | The unit numbers of the open-source Zod Engine (the Z remake whose gameplay rules OpenZ ports) for the 17 units of the original Z, without OpenZ's own rule changes. |
-| **Z-Wiki** | The numbers the fan wiki of the original 1996 Z lists. Some values are not listed there. |
+| **ZodEngine** | The unit numbers of the open-source [Zod Engine](https://sourceforge.net/projects/zod/) (the Z remake whose gameplay rules OpenZ ports) for the 17 units of the original Z, without OpenZ's own rule changes. |
+| **Z-Wiki** | The numbers the [fan wiki of the original 1996 Z](https://zzed.fandom.com/wiki/Z_%28video_game%29) lists. Some values are not listed there. |
 | **Custom** | Your own values. They start as OpenZ's numbers, and you can change them. |
 
 The Electrobot, Alan & Brad and the shuttle are not in the original Z, so ZodEngine and Z-Wiki do not have them. Under

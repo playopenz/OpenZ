@@ -146,6 +146,20 @@ feeling of the original. This is where it started, and where it is now:
   <img src="media/making/making_blender_models.jpg" alt="Blender renders of the robot line-up, the fort, and the vehicles and guns" width="100%">
 </p>
 
+## Behind the scenes
+
+OpenZ is made in **Unity**, and every model is built in **Blender**. There is no shortcut behind it: it is a long,
+hard piece of work, level by level and unit by unit. Each battlefield is laid out, built, played, taken apart and
+polished again, often many times over, until it feels like the Z you remember. Every unit's stats, timings, sounds and
+little reactions get tested in real matches, and every bug a player reports goes onto the list and gets fixed.
+
+<p align="center">
+  <img src="media/making/making_process_1.jpg" alt="OpenZ running in the Unity editor: a battle on the Car Park level with the debug unit panels open" width="100%">
+</p>
+<p align="center">
+  <img src="media/making/making_process_2.jpg" alt="The Car Park level open in the Unity editor at night: the scene hierarchy, the project folders and the game view" width="100%">
+</p>
+
 ## Screenshots
 
 <table>
@@ -169,6 +183,25 @@ feeling of the original. This is where it started, and where it is now:
 
 <p align="center"><b><a href="docs/SCREENSHOTS.md">More screenshots (all 66)</a></b></p>
 
+## Unit editor (coming in 1.2)
+
+A playground for every unit in the game, opened right from the main menu. There are no factories, no fort and no
+winner: drop robots, vehicles and guns of the red and blue teams onto an open battlefield, give orders to both sides,
+and watch them fight. Add a neutral flag to test captures, holographic obstacles to test lines of sight and paths,
+and grenade crates for your robots to pick up. Pause the fight at any moment, or speed it up.
+
+On the right, every unit's stats sit side by side: the OpenZ values, the ZodEngine values, the values from the
+Z Wiki, and your own **Custom** set that you can edit and test straight away. A balance view compares all units at
+a glance. Save your setup to a file on your own disk and share it with friends, or send it to us if you find
+something interesting: OpenZ itself sends nothing anywhere.
+
+<table>
+  <tr>
+    <td width="50%"><a href="media/unit_editor/unit_editor_1.jpg"><img src="media/unit_editor/unit_editor_1.jpg" alt="The Unit editor: red and blue units fighting around holographic obstacles, with the balance view open on the right"></a></td>
+    <td width="50%"><a href="media/unit_editor/unit_editor_2.jpg"><img src="media/unit_editor/unit_editor_2.jpg" alt="A huge blue robot army charging a single veteran tank in the Unit editor"></a></td>
+  </tr>
+</table>
+
 ## How to install
 
 1. **[Download OpenZ_1.1_win64.zip](https://github.com/playopenz/OpenZ/releases/latest/download/OpenZ_1.1_win64.zip)** (2.0 GB).
@@ -191,6 +224,19 @@ Apple Silicon Mac or Linux: see the [community builds by fenio](https://github.c
 PowerShell: `Get-FileHash OpenZ_1.1_win64.zip -Algorithm SHA256`
 
 **New to Z?** Read [how to play and all the controls](docs/CONTROLS.md), or open CONTROLS in the game's main menu.
+
+## Watch real gameplay
+
+Full matches, played and recorded in the game, no edits. Click a picture to watch it on YouTube; more on the
+[OpenZ YouTube channel](https://www.youtube.com/@playopenz).
+
+<table>
+  <tr>
+    <td width="33%" align="center"><a href="https://www.youtube.com/watch?v=gl7l6SmRt_k"><img src="https://img.youtube.com/vi/gl7l6SmRt_k/maxresdefault.jpg" alt="Beating the Jungle level in OpenZ 1.1, full match"></a><br><b>Beating the Jungle</b> (Level 16)</td>
+    <td width="33%" align="center"><a href="https://www.youtube.com/watch?v=7w3KsjZpir4"><img src="https://img.youtube.com/vi/7w3KsjZpir4/maxresdefault.jpg" alt="Car Park night battle, full match"></a><br><b>Car Park night battle</b> (Level 17)</td>
+    <td width="33%" align="center"><a href="https://www.youtube.com/watch?v=EMy2Ir6IKEU"><img src="https://img.youtube.com/vi/EMy2Ir6IKEU/maxresdefault.jpg" alt="Desert on Hard, full match"></a><br><b>Desert on Hard</b> (Level 2)</td>
+  </tr>
+</table>
 
 ## This is only the beginning
 
@@ -252,6 +298,10 @@ on many Macs yet, so please tell us how it runs for you.
 Not from us yet. Our fan **fenio** made unofficial **OpenZ 1.1** builds for Linux and for Mac (native Apple Silicon and Intel),
 for anyone who would like to try it without building it themselves: [fenio's 1.1 builds](https://github.com/fenio/OpenZ/releases/tag/v1.1-unofficial.1). Thank you, fenio! These
 builds are made and looked after by him, not by us.
+
+**Running a Linux build inside a firejail sandbox and you hear sound but see no picture?** Add `protocol netlink` to
+the game's firejail profile. Thanks to our player [**keelefi**](https://github.com/keelefi) for finding this and sharing
+[his working firejail profile](https://gist.github.com/keelefi/3cc2adc295deef8b094cc63cc12df74e)!
 
 **Are any original models or resources used?**
 No. Everything in OpenZ was made from scratch: every model, texture, animation, sound, voice line, music track and

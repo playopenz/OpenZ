@@ -1,5 +1,72 @@
 # OpenZ change log
 
+## OpenZ 1.2 (29 Oct 2026)
+
+OpenZ is a free fan remake of the original Z (The Bitmap Brothers, 1996), the real-time strategy game where flags and territory decide the battle and time is the only resource. Version 1.2 lets you play the blue side, General EvilZod's faction, and brings a Unit editor, a new medium tank, new looks for five units, a computer opponent that flies shuttles and repairs its vehicles, new voice lines, many fixes and an experimental Linux version beside the Mac one.
+
+**Downloads:** `OpenZ_1.2_win64_part1.zip`, `part2` and `part3` (Windows 10 / 11, 64-bit: unzip all three into the same folder), `OpenZ_1.2_mac_EXPERIMENTAL.tar.xz`, `OpenZ_1.2_linux_EXPERIMENTAL.tar.xz` (also for the Steam Deck) and the source code in two parts.
+
+### New
+
+- **The blue side**, a full faction of its own: General EvilZod of Evil Takeover Industries, as confident and strong as Zod, with his small, easily scared sidekick BS-01 (no mouth, big glowing eyes). Play all three maps from the blue fort while the computer plays red.
+- **A faction screen** before every level: PLAY opens two recruiting posters, General Zod of ZodCorp for the red side and General EvilZod for the blue side. Point at a poster to read its general's dossier card; Zod has a word to say about your pick.
+- EvilZod's own scenes in his comms window: a briefing over a fly-over of each map; when the red fort falls, his World-Domination-inator drops a blue nuke on it, then his victory scene; when your fort falls, his defeat scene. On the level selection he has his own lines for each map.
+- **A new vehicle, the medium tank**: between the light and the heavy tank, built right after the mech in every fort and factory that builds the mech. A little tougher and slower than the mech, it fires the light tank's cannon with a hard turret kick, speeds up when it manoeuvres under fire and aims a little less surely until it becomes a veteran. The computer builds both, about one of each.
+- **New looks** for the heavy tank, the light tank, the MLRS, the mech and the gun: the same size, weapons and behaviour, with their own pictures in the build menu. At night the new mech's blue eyes light the ground like a jeep's headlights. In the levels every unit uses its new look, and the testing mode (P) has a tile for the old and the new look of each.
+- The mech's machine gun now fires at robots between its rocket salvos, and a badly damaged mech can lose it. For the extra gun the mech has 5 % less health, and the build menu calls it a "Mech with rockets and a machine gun."
+- **Unit editor**, a new main menu section under PLAY: place the units of both teams on an empty field, add flags, an obstacle and grenade crates, and watch them fight on their own. Compare their stats in four sets (OpenZ, ZodEngine, Z-Wiki and your own Custom numbers), and save and load your setups.
+- **Custom unit stats in the levels**: once you have saved Custom stats in the Unit editor, the UNIT STATS switch over DEPLOY (key N) plays any level with your numbers for both teams. Custom matches stay out of the high scores.
+- The computer opponent uses shuttles now: it flies squads to flags nobody defends. It also sends its damaged heavy vehicles to its repair station and back, and guards its border flags.
+- The shuttle shows who is inside and how many, on its card and over the ship.
+- A wrench key pops up above R while a damaged vehicle is selected and you own a repair station: one click sends it for repairs and back.
+- HIGH SCORES count the wins of both sides, and every row shows the general who won it, ZOD or EVILZOD.
+- New voice lines: 15 repair lines for the vehicles, 10 for the mech, 22 for the medium tank, 10 more for the pyros, and "No way!" and friends when a lone robot is sent against something far stronger. As in the original Z, the announcer now also says "Radar activated." and "Your fort is under attack!", and a robot that takes an empty vehicle calls "Vehicle captured!".
+- CHROMATIC ABERRATION in the graphics options (off by default): a soft lens fringe towards the edges of the screen.
+
+### Changed
+
+- Flags are easier to see: lamps and glows at night, coloured rings by day.
+- Level 16, the Jungle, zoomed all the way out: the land now runs on beyond the map's edge with old ruins, groves, hills and swamps, and the camera no longer drifts far past the map's sides. The widest zoom there is a little closer.
+- Snipers are a little weaker, and grunt and psycho rifles now hurt them. Jeeps now and then shoot the drivers out of light tanks, medium tanks and mechs too.
+- FREE CAMERA is now on by default (OPTIONS, GAME): hold the middle mouse button to turn and tilt the view. If you had switched it off, it stays off.
+- The closest zoom stays a view of the battle; with FREE CAMERA a low tilt pulls the camera back.
+- The OPENZ DISCORD button in the main menu uses an invite that does not expire.
+- Every tank, the MLRS, the mech and the gun now kick back on every shot and settle again, and the turrets and the MLRS's launcher turn smoothly between targets without shaking.
+- Tracks follow the ground over slopes, bumps and bridge ramps and roll as the vehicle drives. The medium and heavy tanks' tracks are a dark military grey, and a standing tank's tracks stay still while you zoom.
+- A destroyed gun falls apart at once, and wrecks stay where they lie while you look at them; they sink only once the camera has moved away.
+- In the briefing fly-overs the robots are on the phone or drinking rocket fuel until you get control, and the fly-bys behind the main menu were filmed again with the new looks.
+- Unit editor: a RESET STATS button, simple windows like a game's menus, room for 200 units a side, a right click that never moves the camera, and CLEAR FIELD also clears wrecks and debris.
+- The blue side: EvilZod's HQ has a military base wall and a steel deck floor, his Car Park briefing's view from above turns slowly, the SHUTTLE switch (key U) works for blue too, and the Car Park has an empty shuttle on each side. Head start vehicles always park clear of the shuttles.
+- Pictures: every vehicle and gun picture in the build menus has the same desert tan look and size, the empty units in the testing mode and the Unit editor share one clean grey look, and the shuttle's pictures are relit to match the others.
+
+### Fixed
+
+- The drivers of the crane and the APC can be shot when they come up to fire; the empty vehicle can then be captured.
+- Shift orders add to what your units are already doing, and robots walking out of a vehicle can be selected at once.
+- The hand-grab cursor over grenade crates, as in the original Z.
+- Kill cheers and quips are heard again in big fights, and the "Boom!" cheer comes right after a big enemy vehicle or gun is destroyed.
+- A destroyed MLRS's tracks fall apart, and a factory's build time shows at every zoom.
+- No black screen when a level starts without its fly-over. Every fly-over shows the rising sun from its first picture, and with CALM MODE on a level no longer starts under a white layer.
+- Repairs: vehicles sent with R reach every repair station, take turns on the pad and come back to where they stood.
+- New vehicles leaving a fort or a factory no longer poke through the door, and the mech's standing feet no longer slide when it turns.
+- Once the match is won or lost, units can no longer be selected or given orders, and the battlefield screen's comms card is gone as soon as the loading screen comes up.
+- Playing the blue side, every vehicle and gun picture is in blue paint (also with YOUR TEAM COLOUR set to blue).
+- The Jungle far out: no grey curtain over the land, the mist runs on to the horizon, the rain splashes land out there too, and the thick jungle beyond the map's rim stands on the ground again.
+- The mech's broken move line is replaced, and the announcer's radar line fits: "Radar online." at the first radar, "Radar is back online." only after every radar was lost.
+- The game no longer stops for half a second the first time a robot pulls out a phone or a drink.
+- Looks: health bars are a very slightly darker green, empty light tanks look like the old empty light tank again, and the new MLRS has a closed hull between its tracks.
+- Unit editor: dragging from the dock always picks the unit up, the grenade crate opens, pops and bursts as in the levels, field items answer with the click sound, and nobody calls out winning or losing.
+
+### Experimental
+
+- Touch screen and gamepad input (OPTIONS, ADVANCED tab, the TOUCH and GAMEPAD row).
+- The Mac version.
+- The Linux version.
+
+CHANGES & UPDATES in the main menu lists every change, those of 1.1 and 1.0 included, and opens with the main additions of 1.2.
+
+---
+
 ## OpenZ 1.1 (21 Oct 2026)
 
 The first big update to the faithful open-source 3D fan remake of **Z** (The Bitmap Brothers, 1996). OpenZ 1.1 opens a third battlefield, **Level 16: Jungle**, where **Alan & Brad** finally join your army as a hero squad and their **shuttle** becomes the first unit in OpenZ that flies. On top of that: sniper headshots, jeeps that run robots over, high scores and army ranks, a smarter computer opponent and a long list of polish and fixes on every level. Free as always, never sold, 100% original assets.

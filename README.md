@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://github.com/playopenz/OpenZ/releases/latest"><img src="https://img.shields.io/github/v/release/playopenz/OpenZ?label=version&color=c8102e&style=for-the-badge&cacheSeconds=3600" alt="Latest version"></a>
   <a href="https://github.com/playopenz/OpenZ/releases"><img src="https://img.shields.io/github/downloads/playopenz/OpenZ/total?label=downloads&color=6b7a3a&style=for-the-badge&cacheSeconds=3600" alt="Downloads"></a>
-  <img src="https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20%7C%20Mac%20(experimental)-2b5797?style=for-the-badge" alt="Windows 10 / 11, Mac experimental">
+  <img src="https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20%7C%20Mac%20%7C%20Linux%20(experimental)-2b5797?style=for-the-badge" alt="Windows 10 / 11, Mac and Linux experimental">
   <img src="https://img.shields.io/badge/price-free-d9a441?style=for-the-badge" alt="Free">
   <a href="LICENSE"><img src="https://img.shields.io/badge/code-GPL--3.0-444444?style=for-the-badge" alt="GPL-3.0"></a>
   <a href="https://discord.gg/WjFqg35PsE"><img src="https://img.shields.io/badge/Discord-ZZone-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
@@ -20,16 +20,17 @@
 </p>
 
 <h2 align="center">
-  <a href="https://github.com/playopenz/OpenZ/releases/latest/download/OpenZ_1.1_win64.zip">Download OpenZ 1.1 for Windows (free, 2.0 GB)</a>
+  <a href="https://github.com/playopenz/OpenZ/releases/latest">Download OpenZ 1.2 for Windows (free, 3 parts, 2.1 GB)</a>
 </h2>
 
 <p align="center">
-  <a href="https://github.com/playopenz/OpenZ/releases/latest/download/OpenZ_1.1_mac_EXPERIMENTAL.zip">Mac version (experimental, 2.0 GB)</a> ·
-  <a href="docs/CHANGELOG.md"><b>What's new in 1.1</b></a>
+  <a href="https://github.com/playopenz/OpenZ/releases/latest/download/OpenZ_1.2_mac_EXPERIMENTAL.tar.xz">Mac (experimental, 1.9 GB)</a> ·
+  <a href="https://github.com/playopenz/OpenZ/releases/latest/download/OpenZ_1.2_linux_EXPERIMENTAL.tar.xz">Linux / Steam Deck (experimental, 1.9 GB)</a> ·
+  <a href="docs/CHANGELOG.md"><b>What's new in 1.2</b></a>
 </p>
 
 <p align="center">
-  Unzip it, run <code>OpenZ.exe</code>, play. No install, no account, no launcher.<br>
+  Unzip all three parts into one folder, run <code>OpenZ.exe</code>, play. No install, no account, no launcher.<br>
   <a href="#how-to-install">How to install</a> ·
   <a href="docs/CONTROLS.md">Controls</a> ·
   <a href="docs/SCREENSHOTS.md">Screenshots</a> ·
@@ -40,6 +41,21 @@
 </p>
 
 ---
+
+## New in 1.2
+
+- **Play the blue side:** General EvilZod of Evil Takeover Industries, as confident as Zod, with his small, easily
+  scared sidekick BS-01. Pick your general from two recruiting posters, then play every map from the blue fort, with
+  EvilZod's own briefings and end scenes (the winning one involves a very big blue nuke).
+- **A new medium tank** between the light and the heavy tank, and **new looks** for the heavy tank, light tank, MLRS,
+  mech and gun. The mech now fires its machine gun at robots between rocket salvos.
+- **Unit editor:** drop both armies onto an empty field, watch them fight and try your own unit stats, then take
+  your numbers into the real levels.
+- **A smarter enemy** that flies squads in shuttles to empty flags, sends damaged vehicles for repairs and guards its
+  borders. Plus new voice lines, easier-to-see flags at night, the **free camera on by default**, and many fixes.
+- **Experimental Linux version** (also for the Steam Deck) beside the Mac one.
+
+Full list: [change log](docs/CHANGELOG.md).
 
 ## New in 1.1
 
@@ -167,6 +183,14 @@ and enjoy the battlefield in full 3D from any angle, right in the game.
 
 <table>
   <tr>
+    <td width="50%"><a href="media/screenshots/full/openz_screenshot_67.jpg"><img src="media/screenshots/web/openz_screenshot_67.jpg" alt="OpenZ 1.2: a Desert battle by day"></a></td>
+    <td width="50%"><a href="media/screenshots/full/openz_screenshot_68.jpg"><img src="media/screenshots/web/openz_screenshot_68.jpg" alt="OpenZ 1.2: Car Park at night"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="media/screenshots/full/openz_screenshot_69.jpg"><img src="media/screenshots/web/openz_screenshot_69.jpg" alt="OpenZ 1.2: laser fire at a Jungle temple by night"></a></td>
+    <td width="50%"><a href="media/screenshots/full/openz_screenshot_70.jpg"><img src="media/screenshots/web/openz_screenshot_70.jpg" alt="OpenZ 1.2: tanks clash below the Desert cliffs"></a></td>
+  </tr>
+  <tr>
     <td width="50%"><a href="media/title.jpg"><img src="media/title.jpg" alt="OpenZ title card"></a></td>
     <td width="50%"><a href="media/screenshots/full/openz_screenshot_35.jpg"><img src="media/screenshots/web/openz_screenshot_35.jpg" alt="OpenZ screenshot"></a></td>
   </tr>
@@ -184,7 +208,7 @@ and enjoy the battlefield in full 3D from any angle, right in the game.
   </tr>
 </table>
 
-<p align="center"><b><a href="docs/SCREENSHOTS.md">More screenshots (all 66)</a></b></p>
+<p align="center"><b><a href="docs/SCREENSHOTS.md">More screenshots (all 76)</a></b></p>
 
 ## Unit editor (version 1.2 and later)
 
@@ -210,8 +234,9 @@ and sharing, keys and tips for balance testing.
 
 ## How to install
 
-1. **[Download OpenZ_1.1_win64.zip](https://github.com/playopenz/OpenZ/releases/latest/download/OpenZ_1.1_win64.zip)** (2.0 GB).
-2. **Unzip it** anywhere (right click, *Extract All*).
+1. **Download all three parts** from the [release page](https://github.com/playopenz/OpenZ/releases/latest): `OpenZ_1.2_win64_part1.zip`,
+   `OpenZ_1.2_win64_part2.zip` and `OpenZ_1.2_win64_part3.zip` (2.1 GB together).
+2. **Unzip all three into the same folder** (right click, *Extract All*).
 3. **Run `OpenZ.exe`.** That's it.
 
 > **Windows says "Windows protected your PC"?** Click **More info**, then **Run anyway**. It only appears because the
@@ -220,14 +245,21 @@ and sharing, keys and tips for balance testing.
 **You need:** Windows 10 or 11 (64-bit), a DirectX 12 graphics card, about 3 GB of disk space.
 
 **On a Mac (experimental):** download
-[OpenZ_1.1_mac_EXPERIMENTAL.zip](https://github.com/playopenz/OpenZ/releases/latest/download/OpenZ_1.1_mac_EXPERIMENTAL.zip),
-unzip it, then right-click the game and choose **Open** on the first start (it is not signed). See
-`HOW_TO_START_ON_A_MAC.txt` inside. It is an Intel build and has not been tested on many Macs yet.
-Apple Silicon Mac or Linux: see the [community builds by fenio](https://github.com/fenio/OpenZ/releases/tag/v1.1-unofficial.1) (unofficial, 1.1, native Apple Silicon + Intel Mac and Linux).
+[OpenZ_1.2_mac_EXPERIMENTAL.tar.xz](https://github.com/playopenz/OpenZ/releases/latest/download/OpenZ_1.2_mac_EXPERIMENTAL.tar.xz),
+unpack it with Finder (double-click), then right-click the game and choose **Open** on the first start (it is not
+signed). See `HOW_TO_START_ON_A_MAC.txt` inside. It is an Intel build; Apple-chip Macs run it through Rosetta.
+
+**On Linux or a Steam Deck (experimental):** download
+[OpenZ_1.2_linux_EXPERIMENTAL.tar.xz](https://github.com/playopenz/OpenZ/releases/latest/download/OpenZ_1.2_linux_EXPERIMENTAL.tar.xz), unpack it and
+start `OpenZ.x86_64` (run `chmod +x OpenZ.x86_64` once if needed). On the Steam Deck use Desktop Mode, no Proton
+needed. See `HOW_TO_START_ON_LINUX.txt` inside.
+
+The Mac and Linux versions have not been tried on real machines yet: please tell us how they run.
+For 1.1 there are also [community builds by fenio](https://github.com/fenio/OpenZ/releases/tag/v1.1-unofficial.1) (unofficial, native Apple Silicon + Intel Mac and Linux).
 
 **Want to be sure your download is the original?** The checksums are in
 [RELEASE_SHA256.txt](https://github.com/playopenz/OpenZ/releases/latest/download/RELEASE_SHA256.txt). Check yours in
-PowerShell: `Get-FileHash OpenZ_1.1_win64.zip -Algorithm SHA256`
+PowerShell: `Get-FileHash OpenZ_1.2_win64_part1.zip -Algorithm SHA256`
 
 **New to Z?** Read [how to play and all the controls](docs/CONTROLS.md), or open CONTROLS in the game's main menu.
 
@@ -265,8 +297,8 @@ what we need most is players and their feedback.
 
 OpenZ is open source. The [`source`](source) folder holds the game code (C# and shaders) for reading. The **complete Unity project**
 with every model, texture, sound and scene is attached to each
-[release](https://github.com/playopenz/OpenZ/releases/latest) as `OpenZ_1.1_source_part1.zip` and
-`OpenZ_1.1_source_part2.zip`. See [Building OpenZ from source](docs/BUILDING.md) (Unity 6.3 LTS).
+[release](https://github.com/playopenz/OpenZ/releases/latest) as `OpenZ_1.2_source_part1.zip` and
+`OpenZ_1.2_source_part2.zip`. See [Building OpenZ from source](docs/BUILDING.md) (Unity 6.3 LTS).
 
 ## License
 
@@ -284,7 +316,14 @@ Full credits: [CREDITS.md](docs/CREDITS.md).
 
 ## FAQ
 
-**What is new in the 1.1 update?**
+**What is new in the 1.2 update?**
+Choose your side, soldier! In 1.2 you can fight for **General EvilZod** and the blue army, with his small, nervous
+sidekick **BS-01**, his own briefings and a very big blue nuke when you win. There is a new **medium tank**, fresh
+looks for five units, a mech that fires its machine gun, a **Unit editor** to stage any battle you like, an enemy that
+flies shuttles and repairs its tanks, new voice lines, the free camera on by default and an experimental Linux
+version. Everything is in the [change log](docs/CHANGELOG.md).
+
+**What was new in the 1.1 update?**
 Pack your sunscreen and watch your step around the water, soldiers! 1.1 adds a whole new battlefield, **Level 16:
 Jungle**, with ruins, waterfalls, wobbly rope bridges and rain. Crocodiles drag robots under in the swamp, and monkeys
 flee the temples when the shooting starts. **Alan & Brad** finally join your army as a tough hero squad, straight off
@@ -295,15 +334,17 @@ strike groups, new options and a huge pile of polish and fixes on every level. E
 [change log](docs/CHANGELOG.md).
 
 **Do you have a Mac version?**
-Yes, an **experimental** one: `OpenZ_1.1_mac_EXPERIMENTAL.zip` on the
-[release page](https://github.com/playopenz/OpenZ/releases/latest). It is an Intel build and not signed, so on the
-first start right-click the game and choose **Open** (see `HOW_TO_START_ON_A_MAC.txt` inside). It has not been tested
-on many Macs yet, so please tell us how it runs for you.
+Yes, an **experimental** one: `OpenZ_1.2_mac_EXPERIMENTAL.tar.xz` on the
+[release page](https://github.com/playopenz/OpenZ/releases/latest). It is an Intel build (Apple-chip Macs run it through Rosetta) and not signed, so on
+the first start right-click the game and choose **Open** (see `HOW_TO_START_ON_A_MAC.txt` inside). It has not been
+tried on real Macs yet, so please tell us how it runs for you.
 
 **Is there a Linux version?**
-Not from us yet. Our fan **fenio** made unofficial **OpenZ 1.1** builds for Linux and for Mac (native Apple Silicon and Intel),
-for anyone who would like to try it without building it themselves: [fenio's 1.1 builds](https://github.com/fenio/OpenZ/releases/tag/v1.1-unofficial.1). Thank you, fenio! These
-builds are made and looked after by him, not by us.
+Yes, from 1.2 an **experimental** one: `OpenZ_1.2_linux_EXPERIMENTAL.tar.xz` on the
+[release page](https://github.com/playopenz/OpenZ/releases/latest), also for the Steam Deck (Desktop Mode, no Proton needed). See
+`HOW_TO_START_ON_LINUX.txt` inside. Our fan **fenio** also made unofficial **OpenZ 1.1** builds for Linux and for Mac
+(native Apple Silicon and Intel): [fenio's 1.1 builds](https://github.com/fenio/OpenZ/releases/tag/v1.1-unofficial.1).
+Thank you, fenio! These builds are made and looked after by him, not by us.
 
 **Running a Linux build inside a firejail sandbox and you hear sound but see no picture?** Add `protocol netlink` to
 the game's firejail profile. Thanks to our player [**keelefi**](https://github.com/keelefi) for finding this and sharing

@@ -51,7 +51,7 @@
   they stay too long. Level 7 has its own scenes too: Alan and Brad in a hot tub among the volcanoes, and General
   EvilZod marching BS-01 straight through the lava.
 - **General EvilZod joins the fight:** a hero for the blue side with an oversized shotgun and a power dash, in the
-  Unit editor and the testing panel. In the levels he comes to help: on the blue retry after a defeat, and as the blue
+  Unit editor. In the levels he comes to help: on the blue retry after a defeat, and as the blue
   fort's last defense when red has taken everything else.
 - **A nuke in the Unit editor**, a computer that mans empty guns, shots that fly over fort walls, harder grenades, a
   slower-reloading medium tank, hard shuttle crash landings and many fixes.

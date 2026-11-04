@@ -13,7 +13,7 @@ OpenZ is a free remake of the original Z (The Bitmap Brothers, 1996), the real-t
 - **LAVA BURNS ROBOTS** (OPTIONS, on by default): on your direct order robots walk into the lava the shortest way, slow down, glow from the feet up and melt if they stay about 12 seconds. One of them complains as they go in, and robots left in the lava with no orders walk back out to the nearest shore. A robot that dies in the lava sinks with the glow climbing from its legs. Vehicles and the computer never go in. Switched off, lava is a wall as in the original.
 - **Level 7's own scenes.** In Zod's briefing Alan and Brad soak in a hot tub among the volcanoes while a blue robot wades past. In EvilZod's briefing he marches BS-01 straight through the lava ("The floor is still lava, sir."). Winning as red, Alan and Brad toast the win in their hot tub with a clink of their cans. Both briefings play in the corner window over the full-screen lava fly-over.
 - **Volcanic wildlife.** Lava dragons fly over level 7 in place of the pterodactyls. Their flame burns every robot under it, of both teams, but a healthy robot never dies of one pass, and they hate flying shuttles but never bring one below a quarter of its health. The huts are lava nests with a glowing cave that break into an open crater, home to raptors, mini raptors, pig dinos and yellow worms.
-- **General EvilZod, a hero for the blue side**, in the Unit editor and the testing panel: nearly twice a robot's height in team-coloured armour with a cloak and an oversized shotgun. His shot is a short burst of pellets with a muzzle blast that hits every robot close in front of him, throws sparks off vehicles and guns, throws back the robots it kills up close and rocks the vehicles it hits. His power dash leaves energy ribbons, afterimages and a scorched trace, with a half-shield in front, and skids to a stop before he fires. Between fights he looks around and reloads; he has his own voice lines; and when he falls, electric arcs run through him and he bursts apart, cloak and all.
+- **General EvilZod, a hero for the blue side**, in the Unit editor: nearly twice a robot's height in team-coloured armour with a cloak and an oversized shotgun. His shot is a short burst of pellets with a muzzle blast that hits every robot close in front of him, throws sparks off vehicles and guns, throws back the robots it kills up close and rocks the vehicles it hits. His power dash leaves energy ribbons, afterimages and a scorched trace, with a half-shield in front, and skids to a stop before he fires. Between fights he looks around and reloads; he has his own voice lines; and when he falls, electric arcs run through him and he bursts apart, cloak and all.
 - **General EvilZod in the levels.** Playing blue, after a lost match he waits in front of the blue fort on the retry. Playing red, once blue holds nothing but its fort after 10 minutes, he comes out once as its last defense and fights the enemies in his range on his way out. Once he is killed, he does not come back in that match.
 - **UNIT EDITOR: NUKE** in the dock's extras: drag it onto the field and the bomber from the level endings drops it there, one every 30 seconds (the tile shows the time left). Everything within 30 m is destroyed, and from 30 to 45 m everything is badly damaged (it loses 75 % of its full health at 30 m, down to 25 % at 45 m), both teams alike, whoever drops it. The placement shows both rings. The nuke of the levels is unchanged.
 - **UNIT EDITOR: two light floors** in BACKGROUND, Snow field and Desert dunes. On them the field marks are drawn in dark ink, so team colours, rings and labels stay easy to read.
@@ -40,7 +40,6 @@ OpenZ is a free remake of the original Z (The Bitmap Brothers, 1996), the real-t
 - Shuttle: about one crash landing in three is a really hard one, with more sparks, a louder crunch and a bigger shake. It costs a quarter of the ship's health but never destroys it. The pieces of a destroyed shuttle tumble as they fly.
 - A destroyed gun or howitzer spins for about 30 % less time before it lands and burns a moment longer.
 - Fire: the lower hull and tracks of a burning vehicle glow hot in the flames, on every map.
-- The testing panel opens on ALT+P instead of P.
 - The camera feels the same at any frame rate: quick wheel notches all count, a touchpad zooms smoothly, and the pan moves evenly.
 - The game draws its scenery in a lighter way and runs smoother on slower PCs, with the same picture and the same rules; mouse-over on big maps is smoother, and on slower PCs the main menu picks a lighter copy of its fly-bys by itself.
 - Faction screen: Zod comments on your pick only the first time; after that a pick goes straight on to the level selection.
@@ -86,7 +85,7 @@ OpenZ is a free fan remake of the original Z (The Bitmap Brothers, 1996), the re
 - **A faction screen** before every level: PLAY opens two recruiting posters, General Zod of ZodCorp for the red side and General EvilZod for the blue side. Point at a poster to read its general's dossier card; Zod has a word to say about your pick.
 - EvilZod's own scenes in his comms window: a briefing over a fly-over of each map; when the red fort falls, his World-Domination-inator drops a blue nuke on it, then his victory scene; when your fort falls, his defeat scene. On the level selection he has his own lines for each map.
 - **A new vehicle, the medium tank**: between the light and the heavy tank, built right after the mech in every fort and factory that builds the mech. A little tougher and slower than the mech, it fires the light tank's cannon with a hard turret kick, speeds up when it manoeuvres under fire and aims a little less surely until it becomes a veteran. The computer builds both, about one of each.
-- **New looks** for the heavy tank, the light tank, the MLRS, the mech and the gun: the same size, weapons and behaviour, with their own pictures in the build menu. At night the new mech's blue eyes light the ground like a jeep's headlights. In the levels every unit uses its new look, and the testing mode (P) has a tile for the old and the new look of each.
+- **New looks** for the heavy tank, the light tank, the MLRS, the mech and the gun: the same size, weapons and behaviour, with their own pictures in the build menu. At night the new mech's blue eyes light the ground like a jeep's headlights. In the levels every unit uses its new look.
 - The mech's machine gun now fires at robots between its rocket salvos, and a badly damaged mech can lose it. For the extra gun the mech has 5 % less health, and the build menu calls it a "Mech with rockets and a machine gun."
 - **Unit editor**, a new main menu section under PLAY: place the units of both teams on an empty field, add flags, an obstacle and grenade crates, and watch them fight on their own. Compare their stats in four sets (OpenZ, ZodEngine, Z-Wiki and your own Custom numbers), and save and load your setups.
 - **Custom unit stats in the levels**: once you have saved Custom stats in the Unit editor, the UNIT STATS switch over DEPLOY (key N) plays any level with your numbers for both teams. Custom matches stay out of the high scores.
@@ -111,7 +110,7 @@ OpenZ is a free fan remake of the original Z (The Bitmap Brothers, 1996), the re
 - In the briefing fly-overs the robots are on the phone or drinking rocket fuel until you get control, and the fly-bys behind the main menu were filmed again with the new looks.
 - Unit editor: a RESET STATS button, simple windows like a game's menus, room for 200 units a side, a right click that never moves the camera, and CLEAR FIELD also clears wrecks and debris.
 - The blue side: EvilZod's HQ has a military base wall and a steel deck floor, his Car Park briefing's view from above turns slowly, the SHUTTLE switch (key U) works for blue too, and the Car Park has an empty shuttle on each side. Head start vehicles always park clear of the shuttles.
-- Pictures: every vehicle and gun picture in the build menus has the same desert tan look and size, the empty units in the testing mode and the Unit editor share one clean grey look, and the shuttle's pictures are relit to match the others.
+- Pictures: every vehicle and gun picture in the build menus has the same desert tan look and size, the empty units in the Unit editor share one clean grey look, and the shuttle's pictures are relit to match the others.
 
 ### Fixed
 
@@ -260,7 +259,6 @@ In the game, the **CHANGES & UPDATES** screen of the main menu opens with the bi
 - Gun range rings look exactly like the units' range rings (the same dotted ring, only the size differs).
 - Move-order waypoint dots are dimmer at night.
 - The closest zoom is a little less close and the widest zoom a little less wide.
-- Testing mode: hold the middle mouse button to turn and tilt the camera; the minimap shows the turned view.
 - The interface scale starts at 100% on every screen. A scale saved by 1.0 is reset to 100% once; a scale you then choose in Options is kept.
 
 #### Graphics and performance
@@ -291,7 +289,6 @@ In the game, the **CHANGES & UPDATES** screen of the main menu opens with the bi
 - Vehicles shake far less near shores.
 - Waypoint dots no longer sink into the ground.
 - Drag-selecting over a fort or factory no longer opens its build menu.
-- In testing mode, a dragged unit icon no longer stays stuck on the screen.
 - The factory reminder's tip sits right under the "!" on the badge, and its ring no longer touches the word TECH.
 - With NIGHT & RAIN switched off, every map stays in daylight with no rain or storm (the Car Park still had them), and at night the picture brightens to day smoothly over a few seconds instead of in a flash.
 - On the LOW graphics preset, tree shadows fade out smoothly at the widest zoom instead of popping.

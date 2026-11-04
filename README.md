@@ -20,17 +20,18 @@
 </p>
 
 <h2 align="center">
-  <a href="https://github.com/playopenz/OpenZ/releases/latest">Download OpenZ 1.2 for Windows (free, 3 parts, 2.1 GB)</a>
+  <a href="https://github.com/playopenz/OpenZ/releases/latest">Download OpenZ 1.3 for Windows (free, 3 parts, 2.5 GB)</a>
 </h2>
 
 <p align="center">
-  <a href="https://github.com/playopenz/OpenZ/releases/latest/download/OpenZ_1.2_mac_EXPERIMENTAL.tar.xz">Mac (experimental, 1.9 GB)</a> ·
-  <a href="https://github.com/playopenz/OpenZ/releases/latest/download/OpenZ_1.2_linux_EXPERIMENTAL.tar.xz">Linux / Steam Deck (experimental, 1.9 GB)</a> ·
-  <a href="docs/CHANGELOG.md"><b>What's new in 1.2</b></a>
+  <a href="https://github.com/playopenz/OpenZ/releases/latest">Mac, Apple chip and Intel (experimental, 2 parts)</a> ·
+  <a href="https://github.com/playopenz/OpenZ/releases/latest">Linux / Steam Deck (experimental, 2 parts)</a> ·
+  <a href="https://github.com/playopenz/OpenZ/releases/latest">Faster Windows build (experimental)</a> ·
+  <a href="docs/CHANGELOG.md"><b>What's new in 1.3</b></a>
 </p>
 
 <p align="center">
-  Unzip all three parts into one folder, run <code>OpenZ.exe</code>, play. No install, no account, no launcher.<br>
+  Unzip ALL parts into the same folder, run <code>OpenZ.exe</code>, play. No install, no account, no launcher.<br>
   <a href="#how-to-install">How to install</a> ·
   <a href="docs/CONTROLS.md">Controls</a> ·
   <a href="docs/SCREENSHOTS.md">Screenshots</a> ·
@@ -41,6 +42,23 @@
 </p>
 
 ---
+
+## New in 1.3
+
+- **Level 7: the Volcano.** Pyro Technics is back in 3D, on both sides: lava that bubbles and pops, erupting
+  volcanoes, its own music, lava dragons over the map, and raptors, pig dinos and yellow worms at the lava nests.
+- **LAVA BURNS ROBOTS** (OPTIONS, on by default): order your robots into the lava and they glow, complain and melt if
+  they stay too long. Level 7 has its own scenes too: Alan and Brad in a hot tub among the volcanoes, and General
+  EvilZod marching BS-01 straight through the lava.
+- **General EvilZod joins the fight:** a hero for the blue side with an oversized shotgun and a power dash, in the
+  Unit editor and the testing panel. In the levels he comes to help: on the blue retry after a defeat, and as the blue
+  fort's last defense when red has taken everything else.
+- **A nuke in the Unit editor**, a computer that mans empty guns, shots that fly over fort walls, harder grenades, a
+  slower-reloading medium tank, hard shuttle crash landings, a smaller jeep and many fixes.
+- **Runs smoother** and feels the same at any frame rate, with new graphics rows for slower PCs, an extra
+  **faster Windows build** and **one Mac download for Apple-chip and Intel Macs** (both experimental).
+
+Full list: [change log](docs/CHANGELOG.md).
 
 ## New in 1.2
 
@@ -108,8 +126,8 @@ And that's not all: several completely new ideas and brand-new content have been
 
 - **Pure Z gameplay.** Capture flags to take whole territories. More territory means faster factories. Storm the enemy
   fort, or blow it to pieces. No resources to mine, no base building: just war.
-- **Three classic levels, fully restored:** Level 2 (Desert), Level 16 (Jungle, new in 1.1) and Level 17
-  ("Car Park"), polished to an extreme level of detail, with day, night and weather.
+- **Four classic levels, fully restored:** Level 2 (Desert), Level 7 (Volcano, new in 1.3), Level 16 (Jungle, new
+  in 1.1) and Level 17 ("Car Park"), polished to an extreme level of detail, with day, night and weather.
 - **The whole robot army:** Grunts, Psychos, Snipers, Toughs, Pyros and Lasers, plus the brand-new **Electrobot**.
 - **Vehicles and guns:** jeeps, light, medium and heavy tanks, APCs, missile launchers, cranes, gatlings, howitzers,
   missile cannons, and the brand-new **Mech**. Any robot can board an empty vehicle, and a sniper can shoot the driver
@@ -231,24 +249,47 @@ and sharing, keys and tips for balance testing.
 
 ## How to install
 
-1. **Download all three parts** from the [release page](https://github.com/playopenz/OpenZ/releases/latest): `OpenZ_1.2_win64_part1.zip`,
-   `OpenZ_1.2_win64_part2.zip` and `OpenZ_1.2_win64_part3.zip` (2.1 GB together).
-2. **Unzip all three into the same folder** (right click, *Extract All*).
-3. **Run `OpenZ.exe`.** That's it.
+**Unzip ALL parts into the same folder:** the Windows game comes in three parts, the Mac version in two and the Linux
+version in two.
+
+1. **Download all three parts** from the [release page](https://github.com/playopenz/OpenZ/releases/latest): `OpenZ_1.3_win64_part1_of_3.zip`,
+   `OpenZ_1.3_win64_part2_of_3.zip` and `OpenZ_1.3_win64_part3_of_3.zip` (2.5 GB together).
+2. **Unzip all three into the same folder** (right click, *Extract All*, and pick the same folder each time: Windows
+   suggests a new folder for each part, so change it). `READ_ME_FIRST_ALL_PARTS.txt` in part 1 says the same.
+3. **Run `OpenZ.exe`** in the folder `OpenZ_1.3`. That's it.
 
 > **Windows says "Windows protected your PC"?** Click **More info**, then **Run anyway**. It only appears because the
 > game is not signed by a company. OpenZ sends nothing anywhere, and the full source code is right here.
 
-**You need:** Windows 10 or 11 (64-bit), a DirectX 12 graphics card, about 3 GB of disk space.
+**You need:** Windows 10 or 11 (64-bit), a DirectX 12 graphics card, about 5 GB of disk space.
 
-**On a Mac (experimental):** download
-[OpenZ_1.2_mac_EXPERIMENTAL.tar.xz](https://github.com/playopenz/OpenZ/releases/latest/download/OpenZ_1.2_mac_EXPERIMENTAL.tar.xz),
-unpack it with Finder (double-click), then right-click the game and choose **Open** on the first start (it is not
-signed). See `HOW_TO_START_ON_A_MAC.txt` inside. It is an Intel build; Apple-chip Macs run it through Rosetta.
+**Faster Windows build (experimental):** the same game compiled differently, usually a little smoother on slower PCs;
+if anything feels wrong, use the normal download. On the same [release page](https://github.com/playopenz/OpenZ/releases/latest),
+download every part whose name starts with `OpenZ_1.3_win64_FASTER_EXPERIMENTAL` and unzip them all into the same
+folder, a different one from the normal game.
 
-**On Linux or a Steam Deck (experimental):** download
-[OpenZ_1.2_linux_EXPERIMENTAL.tar.xz](https://github.com/playopenz/OpenZ/releases/latest/download/OpenZ_1.2_linux_EXPERIMENTAL.tar.xz), unpack it and
-start `OpenZ.x86_64` (run `chmod +x OpenZ.x86_64` once if needed). On the Steam Deck use Desktop Mode, no Proton
+**On a Mac (experimental):** download both parts, `OpenZ_1.3_mac_EXPERIMENTAL_part1_of_2.tar.xz` and
+`OpenZ_1.3_mac_EXPERIMENTAL_part2_of_2.tar.xz`, from the [release page](https://github.com/playopenz/OpenZ/releases/latest),
+and unpack them into the same folder with Terminal (double-clicking them in Finder would give two folders):
+
+```
+cd ~/Downloads
+tar -xf OpenZ_1.3_mac_EXPERIMENTAL_part1_of_2.tar.xz && tar -xf OpenZ_1.3_mac_EXPERIMENTAL_part2_of_2.tar.xz
+```
+
+Then right-click the game and choose **Open** on the first start, because it is not signed with an Apple certificate
+(on macOS 15 and newer: System Settings, Privacy & Security, Open Anyway). It runs natively on Macs with an Apple chip
+and on Intel Macs. See `HOW_TO_START_ON_A_MAC.txt` inside.
+
+**On Linux or a Steam Deck (experimental):** download both parts, `OpenZ_1.3_linux_EXPERIMENTAL_part1_of_2.tar.xz` and
+`OpenZ_1.3_linux_EXPERIMENTAL_part2_of_2.tar.xz`, and unpack them into the same folder (or *Extract Here* on both, in
+the same folder):
+
+```
+tar -xf OpenZ_1.3_linux_EXPERIMENTAL_part1_of_2.tar.xz && tar -xf OpenZ_1.3_linux_EXPERIMENTAL_part2_of_2.tar.xz
+```
+
+Then start `OpenZ.x86_64` (run `chmod +x OpenZ.x86_64` once if needed). On the Steam Deck use Desktop Mode, no Proton
 needed. See `HOW_TO_START_ON_LINUX.txt` inside.
 
 The Mac and Linux versions have not been tried on real machines yet: please tell us how they run.
@@ -256,7 +297,7 @@ For 1.1 there are also [community builds by fenio](https://github.com/fenio/Open
 
 **Want to be sure your download is the original?** The checksums are in
 [RELEASE_SHA256.txt](https://github.com/playopenz/OpenZ/releases/latest/download/RELEASE_SHA256.txt). Check yours in
-PowerShell: `Get-FileHash OpenZ_1.2_win64_part1.zip -Algorithm SHA256`
+PowerShell: `Get-FileHash OpenZ_1.3_win64_part1_of_3.zip -Algorithm SHA256`
 
 **New to Z?** Read [how to play and all the controls](docs/CONTROLS.md), or open CONTROLS in the game's main menu.
 
@@ -294,8 +335,8 @@ what we need most is players and their feedback.
 
 OpenZ is open source. The [`source`](source) folder holds the game code (C# and shaders) for reading. The **complete Unity project**
 with every model, texture, sound and scene is attached to each
-[release](https://github.com/playopenz/OpenZ/releases/latest) as `OpenZ_1.2_source_part1.zip` and
-`OpenZ_1.2_source_part2.zip`. See [Building OpenZ from source](docs/BUILDING.md) (Unity 6.3 LTS).
+[release](https://github.com/playopenz/OpenZ/releases/latest) as `OpenZ_1.3_source_part1.zip` and
+`OpenZ_1.3_source_part2.zip`. See [Building OpenZ from source](docs/BUILDING.md) (Unity 6.3 LTS).
 
 ## License
 
@@ -313,7 +354,16 @@ Full credits: [CREDITS.md](docs/CREDITS.md).
 
 ## FAQ
 
-**What is new in the 1.2 update?**
+**What is new in the 1.3 update?**
+Mind your step, soldiers, the floor is lava! 1.3 brings back **Level 7, the Volcano** (Pyro Technics) in 3D, on both
+sides, with glowing lava, erupting volcanoes, lava dragons and its own music. Order your robots into the lava and they
+glow, complain and melt (**LAVA BURNS ROBOTS**, on by default). Alan and Brad soak in a hot tub among the volcanoes,
+General EvilZod marches BS-01 straight through the lava, and EvilZod himself joins the fight as a **hero for the blue
+side** with an oversized shotgun. On top of that: a **nuke in the Unit editor**, a computer that mans empty guns, shots
+that fly over fort walls, smoother play on slower PCs, an extra faster Windows build and one Mac download for Apple-chip
+and Intel Macs (both experimental), and many fixes. Everything is in the [change log](docs/CHANGELOG.md).
+
+**What was new in the 1.2 update?**
 Choose your side, soldier! In 1.2 you can fight for **General EvilZod** and the blue army, with his small, nervous
 sidekick **BS-01**, his own briefings and a very big blue nuke when you win. There is a new **medium tank**, fresh
 looks for five units, a mech that fires its machine gun, a **Unit editor** to stage any battle you like, an enemy that
@@ -331,14 +381,17 @@ strike groups, new options and a huge pile of polish and fixes on every level. E
 [change log](docs/CHANGELOG.md).
 
 **Do you have a Mac version?**
-Yes, an **experimental** one: `OpenZ_1.2_mac_EXPERIMENTAL.tar.xz` on the
-[release page](https://github.com/playopenz/OpenZ/releases/latest). It is an Intel build (Apple-chip Macs run it through Rosetta) and not signed, so on
-the first start right-click the game and choose **Open** (see `HOW_TO_START_ON_A_MAC.txt` inside). It has not been
-tried on real Macs yet, so please tell us how it runs for you.
+Yes, an **experimental** one in two parts: `OpenZ_1.3_mac_EXPERIMENTAL_part1_of_2.tar.xz` and
+`OpenZ_1.3_mac_EXPERIMENTAL_part2_of_2.tar.xz` on the [release page](https://github.com/playopenz/OpenZ/releases/latest).
+From 1.3 it runs natively on Macs with an Apple chip and on Intel Macs. Unpack both parts into the same folder with
+Terminal (see [How to install](#how-to-install)). It is not signed, so on the first start right-click the game and
+choose **Open** (see `HOW_TO_START_ON_A_MAC.txt` inside). It has not been tried on real Macs yet, so please tell us
+how it runs for you.
 
 **Is there a Linux version?**
-Yes, from 1.2 an **experimental** one: `OpenZ_1.2_linux_EXPERIMENTAL.tar.xz` on the
-[release page](https://github.com/playopenz/OpenZ/releases/latest), also for the Steam Deck (Desktop Mode, no Proton needed). See
+Yes, from 1.2 an **experimental** one, in 1.3 in two parts: `OpenZ_1.3_linux_EXPERIMENTAL_part1_of_2.tar.xz` and
+`OpenZ_1.3_linux_EXPERIMENTAL_part2_of_2.tar.xz` on the [release page](https://github.com/playopenz/OpenZ/releases/latest)
+(unpack both into the same folder), also for the Steam Deck (Desktop Mode, no Proton needed). See
 `HOW_TO_START_ON_LINUX.txt` inside. Our fan **fenio** also made unofficial **OpenZ 1.1** builds for Linux and for Mac
 (native Apple Silicon and Intel): [fenio's 1.1 builds](https://github.com/fenio/OpenZ/releases/tag/v1.1-unofficial.1).
 Thank you, fenio! These builds are made and looked after by him, not by us.

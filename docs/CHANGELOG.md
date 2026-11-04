@@ -1,5 +1,79 @@
 # OpenZ change log
 
+## OpenZ 1.3 (4 Nov 2026)
+
+OpenZ is a free remake of the original Z (The Bitmap Brothers, 1996), the real-time strategy game where flags and territory decide the battle and time is the only resource. Version 1.3 brings level 7, the Volcano, with lava that burns robots, erupting volcanoes, lava dragons and its own briefing scenes; General EvilZod as a hero for the blue side; a nuke in the Unit editor; and many changes and fixes.
+
+**Downloads:** `OpenZ_1.3_win64_part1_of_3.zip`, `part2_of_3` and `part3_of_3` (Windows 10 / 11, 64-bit: unzip all three into the same folder), the faster Windows build (experimental: the parts named `OpenZ_1.3_win64_FASTER_EXPERIMENTAL_...`, unzipped all into one folder of their own), `OpenZ_1.3_mac_EXPERIMENTAL_part1_of_2.tar.xz` and `part2_of_2` (Apple chip and Intel), `OpenZ_1.3_linux_EXPERIMENTAL_part1_of_2.tar.xz` and `part2_of_2` (also for the Steam Deck; unpack both parts into the same folder) and the source code in two parts.
+
+### New
+
+- **Level 7, the Volcano.** Pyro Technics, the classic volcanic level, returns in 3D, playable on both sides, as the card after level 2 on the battlefield screen (now four cards). A central road runs between two forts with a maze of rock on either side, ash-dark ground and glowing lava that bubbles and pops, brightest at night. Grey rock pillars and volcanoes stand round the map, and some of them erupt now and then with fountains, smoke, rumbles and lava bombs that glow while they are hot. Hot air wavers over the lava, the lava cools towards its shore, the roads have faint worn centre dashes and darker gravel tracks from the doors, and an empty medium tank waits in two corners to be captured.
+- Level 7 has four new music tracks, its own day and night sounds and a new loading picture of its sunrise. Zod and General EvilZod each have a line for the new card on the battlefield screen.
+- **LAVA BURNS ROBOTS** (OPTIONS, on by default): on your direct order robots walk into the lava the shortest way, slow down, glow from the feet up and melt if they stay about 12 seconds. One of them complains as they go in, and robots left in the lava with no orders walk back out to the nearest shore. A robot that dies in the lava sinks with the glow climbing from its legs. Vehicles and the computer never go in. Switched off, lava is a wall as in the original.
+- **Level 7's own scenes.** In Zod's briefing Alan and Brad soak in a hot tub among the volcanoes while a blue robot wades past. In EvilZod's briefing he marches BS-01 straight through the lava ("The floor is still lava, sir."). Winning as red, Alan and Brad toast the win in their hot tub with a clink of their cans. Both briefings play in the corner window over the full-screen lava fly-over.
+- **Volcanic wildlife.** Lava dragons fly over level 7 in place of the pterodactyls. Their flame burns every robot under it, of both teams, but a healthy robot never dies of one pass, and they hate flying shuttles but never bring one below a quarter of its health. The huts are lava nests with a glowing cave that break into an open crater, home to raptors, mini raptors, pig dinos and yellow worms.
+- **General EvilZod, a hero for the blue side**, in the Unit editor and the testing panel: nearly twice a robot's height in team-coloured armour with a cloak and an oversized shotgun. His shot is a short burst of pellets with a muzzle blast that hits every robot close in front of him, throws sparks off vehicles and guns, throws back the robots it kills up close and rocks the vehicles it hits. His power dash leaves energy ribbons, afterimages and a scorched trace, with a half-shield in front, and skids to a stop before he fires. Between fights he looks around and reloads; he has his own voice lines; and when he falls, electric arcs run through him and he bursts apart, cloak and all.
+- **General EvilZod in the levels.** Playing blue, after a lost match he waits in front of the blue fort on the retry. Playing red, once blue holds nothing but its fort after 10 minutes, he comes out once as its last defense and fights the enemies in his range on his way out. Once he is killed, he does not come back in that match.
+- **UNIT EDITOR: NUKE** in the dock's extras: drag it onto the field and the bomber from the level endings drops it there, one every 30 seconds (the tile shows the time left). Everything within 30 m is destroyed, and from 30 to 45 m everything is badly damaged (it loses 75 % of its full health at 30 m, down to 25 % at 45 m), both teams alike, whoever drops it. The placement shows both rings. The nuke of the levels is unchanged.
+- **UNIT EDITOR: two light floors** in BACKGROUND, Snow field and Desert dunes. On them the field marks are drawn in dark ink, so team colours, rings and labels stay easy to read.
+- The computer mans empty guns it passes on its way or finds near its border, one squad per gun, and never pulls a squad off a flag run or out of a fight.
+- Units shelled by a fort tower gun move to a spot from where they can shoot back.
+- **New voice lines**: complaints about the lava, help calls under fire, wipeout lines on a big boom, more menacing pyros, and Alan and Brad's remarks after a hard shuttle landing.
+- **FRAME RATE LIMIT** has two new choices, 40 and UNLIMITED (VSYNC); 60 stays the default.
+- **New GRAPHICS rows for slower PCs**: SUN SHADOW STEPS, SMOOTH FRAMES ON SLOW PCS, GRAPHICS API, MASS BATTLES, SHADOWS, AMBIENT OCCLUSION, TREES AND PLANTS, WRECKS AND DEBRIS, and one LIGHTEST FOR SLOW PCS switch. Every row starts on the usual look. FPS COUNTER has a DETAILED setting.
+- **Mac (experimental)**: one download that runs natively on Macs with an Apple chip and on Macs with an Intel processor.
+
+### Changed
+
+- The jeep is drawn 8 % smaller, so it no longer looks as big as a tank; its speed, health and size on the map are unchanged.
+- Robots driving a jeep and robots on the gatling, howitzer, missile cannon and gun are drawn bigger, and the big robot types sit further back in the jeep, behind the windscreen. The grunt in the top hatch of the light, medium and heavy tank is drawn a little bigger.
+- Vehicles leaving a factory or the fort shrink much less in the doorway: a tank now leaves at about 80 % of its size instead of about 60 %.
+- Fort cannon: a strong armoured neck with two heavy chrome rams lifts the head, and the head rises and drops together with the barrel.
+- Shots between the ground and a fort tower or a platform deck fly over the wall to their target, both ways, and shots at fort tower guns fly up to the gun on the tower top.
+- The nuke's shockwave is a soft, half see-through ring that stays one smooth curve over hills and mountains.
+- Grunts carry gun-metal grey rifles with a real metal shine instead of yellow ones.
+- Flags: the cloth turns to face the camera on every level, and level 7's grey flags send out a soft ring so they are easy to find on the dark ground.
+- Medium tank: it reloads 15 % slower (1.30 s), so a heavy tank wins a straight one-on-one again. It still beats a light tank.
+- Grenades hit 15 % harder, and their blasts are drawn bigger, closer to the area they really hurt. Their range and the area they hurt are unchanged.
+- A destroyed factory no longer comes back with a finished unit: it stands again after 10 to 11 minutes, empty and idle.
+- Shuttle: about one crash landing in three is a really hard one, with more sparks, a louder crunch and a bigger shake. It costs a quarter of the ship's health but never destroys it. The pieces of a destroyed shuttle tumble as they fly.
+- A destroyed gun or howitzer spins for about 30 % less time before it lands and burns a moment longer.
+- Fire: the lower hull and tracks of a burning vehicle glow hot in the flames, on every map.
+- The testing panel opens on ALT+P instead of P.
+- The camera feels the same at any frame rate: quick wheel notches all count, a touchpad zooms smoothly, and the pan moves evenly.
+- The game draws its scenery in a lighter way and runs smoother on slower PCs, with the same picture and the same rules; mouse-over on big maps is smoother, and on slower PCs the main menu picks a lighter copy of its fly-bys by itself.
+- Faction screen: Zod comments on your pick only the first time; after that a pick goes straight on to the level selection.
+- Playing the blue side, the mouse cursors are blue (the same shapes and sizes).
+- General EvilZod speaks a touch louder in the blue briefings and scenes.
+- Orders: a unit that cannot hurt what you right-click walks there instead of standing still, and only the robots that take an order answer it.
+- Heavy tank: when it stands idle right beside a rock, it shoots the rock it is clipping.
+- Unit editor: General EvilZod is offered only for the blue side, and Alan and Brad only for the red side (also in level 16's blue start).
+
+### Fixed
+
+- Car Park: the stop signs face the camera and read the whole word STOP, and the warning about stolen vehicles comes only once an enemy robot has really climbed into a vehicle there.
+- Destroyed guns on fort towers burn dark and fall apart like other gun wrecks instead of flying off white.
+- Flying wrecks: a destroyed fort cannon, tank turret or tower gun top lands where it flies, without a snap or a jump, turns evenly through its flight, and its broken pieces stay and settle instead of vanishing at once.
+- Vehicles and wrecks no longer end up stuck in the ground, and CLEAR FIELD in the Unit editor removes every one of them.
+- The help call's portrait stays up long enough to click, and a cut-off call ends with SIGNAL LOST.
+- Linux: the main menu's fly-bys play, and the RESOLUTION row reaches every size the screen offers, 4K included.
+- Level 7, winning as blue: the circle round the nuke smoke has a soft edge.
+- Level 7, winning as red: the hot tub ending plays, and no broken piece of the fort cannon hangs in the air over the fire.
+- The main menu's very first start no longer crawls.
+- General EvilZod: his death pieces are his own parts, his cloak falls with him instead of hanging in the air, and he no longer clips the fort door when he comes out.
+- Unit editor: EvilZod's cloak holds still while you drag him from the dock.
+
+### Experimental
+
+- Touch screen and gamepad input (OPTIONS, ADVANCED tab, the TOUCH and GAMEPAD row).
+- The Mac and Linux versions, as separate downloads. Both were made on a Windows PC and have not been tried on a real machine yet.
+- Faster Windows build (experimental): the same game compiled differently, usually a little smoother on slower PCs; if anything feels wrong, use the normal download.
+
+CHANGES & UPDATES in the main menu lists every change, those of 1.2, 1.1 and 1.0 included, and opens with the main additions of 1.3.
+
+---
+
 ## OpenZ 1.2 (29 Oct 2026)
 
 OpenZ is a free fan remake of the original Z (The Bitmap Brothers, 1996), the real-time strategy game where flags and territory decide the battle and time is the only resource. Version 1.2 lets you play the blue side, General EvilZod's faction, and brings a Unit editor, a new medium tank, new looks for five units, a computer opponent that flies shuttles and repairs its vehicles, new voice lines, many fixes and an experimental Linux version beside the Mac one.

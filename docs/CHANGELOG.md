@@ -68,7 +68,7 @@ OpenZ is a free remake of the original Z (The Bitmap Brothers, 1996), the real-t
 
 - Touch screen and gamepad input (OPTIONS, ADVANCED tab, the TOUCH and GAMEPAD row).
 - The Mac and Linux versions, as separate downloads. Both were made on a Windows PC and have not been tried on a real machine yet.
-- Faster Windows build (experimental): the same game compiled differently, usually a little smoother on slower PCs; if anything feels wrong, use the normal download.
+- Faster Windows build (experimental): besides the normal download (Mono) there is a faster one (IL2CPP), about 20 % faster on weaker PCs. Start with the normal one; if it feels slow on your PC, try the faster one, and if anything feels wrong in it, go back to the normal one.
 
 CHANGES & UPDATES in the main menu lists every change, those of 1.2, 1.1 and 1.0 included, and opens with the main additions of 1.3.
 

@@ -54,9 +54,12 @@
   Unit editor and the testing panel. In the levels he comes to help: on the blue retry after a defeat, and as the blue
   fort's last defense when red has taken everything else.
 - **A nuke in the Unit editor**, a computer that mans empty guns, shots that fly over fort walls, harder grenades, a
-  slower-reloading medium tank, hard shuttle crash landings, a smaller jeep and many fixes.
-- **Runs smoother** and feels the same at any frame rate, with new graphics rows for slower PCs, an extra
-  **faster Windows build** and **one Mac download for Apple-chip and Intel Macs** (both experimental).
+  slower-reloading medium tank, hard shuttle crash landings and many fixes.
+- **New vehicle sizing:** a smaller jeep that no longer looks as big as a tank, bigger robots at the wheel and on the
+  guns, and vehicles that keep their size as they roll out of a factory.
+- **A faster Windows build (experimental):** besides the normal download (Mono) there is a faster one (IL2CPP),
+  about 20 % faster on weaker PCs. Plus smoother play at any frame rate, new graphics rows for slower PCs and
+  **one Mac download for Apple-chip and Intel Macs** (experimental).
 
 Full list: [change log](docs/CHANGELOG.md).
 
@@ -177,6 +180,21 @@ feeling of the original. This is where it started, and where it is now:
   <img src="media/making/making_carpark_then_now.jpg" alt="Car Park level: first pass next to OpenZ 1.0" width="100%">
 </p>
 
+## Day and night
+
+Every battlefield lives through a full day: the sun rises and sets, shadows swing round, and at night the lamps,
+searchlights and headlights take over. The weather changes too, with realistic rain and storms that leave the ground
+wet and shining, drifting fog and wind in the flags and palms, while fire, explosions and lava throw their own light
+across the map. With the **free camera** (hold the middle mouse button and move the mouse) you can turn and tilt the
+view and watch it all from any angle, right in the game.
+
+<table>
+  <tr>
+    <td width="50%"><a href="media/screenshots/full/openz_screenshot_78.jpg"><img src="media/screenshots/web/openz_screenshot_78.jpg" alt="OpenZ by day: a red assault on the blue fort on a green battlefield"></a><br><p align="center"><b>Day</b></p></td>
+    <td width="50%"><a href="media/screenshots/full/openz_screenshot_77.jpg"><img src="media/screenshots/web/openz_screenshot_77.jpg" alt="OpenZ at night: searchlights sweep the jungle around the blue fort"></a><br><p align="center"><b>Night</b></p></td>
+  </tr>
+</table>
+
 ## Behind the scenes
 
 OpenZ is made in **Unity**, and every model is built in **Blender**. There is no shortcut behind it: it is a long,
@@ -197,6 +215,10 @@ little reactions get tested in real matches, and every bug a player reports goes
 and enjoy the battlefield in full 3D from any angle, right in the game.
 
 <table>
+  <tr>
+    <td width="50%"><a href="media/screenshots/full/openz_screenshot_81.jpg"><img src="media/screenshots/web/openz_screenshot_81.jpg" alt="OpenZ 1.3: level 7, the Volcano, a battle among the lava fields at night"></a></td>
+    <td width="50%"><a href="media/screenshots/full/openz_screenshot_82.jpg"><img src="media/screenshots/web/openz_screenshot_82.jpg" alt="OpenZ: the Desert level, an electro bot attack at the river bridges"></a></td>
+  </tr>
   <tr>
     <td width="50%"><a href="media/screenshots/full/openz_screenshot_67.jpg"><img src="media/screenshots/web/openz_screenshot_67.jpg" alt="OpenZ 1.2: a Desert battle by day"></a></td>
     <td width="50%"><a href="media/screenshots/full/openz_screenshot_68.jpg"><img src="media/screenshots/web/openz_screenshot_68.jpg" alt="OpenZ 1.2: Car Park at night"></a></td>
@@ -223,7 +245,7 @@ and enjoy the battlefield in full 3D from any angle, right in the game.
   </tr>
 </table>
 
-<p align="center"><b><a href="docs/SCREENSHOTS.md">More screenshots (all 76)</a></b></p>
+<p align="center"><b><a href="docs/SCREENSHOTS.md">More screenshots (all 82)</a></b></p>
 
 ## Unit editor (version 1.2 and later)
 
@@ -242,7 +264,7 @@ and sharing, keys and tips for balance testing.
 
 <table>
   <tr>
-    <td width="50%"><a href="media/unit_editor/unit_editor_1.jpg"><img src="media/unit_editor/unit_editor_1.jpg" alt="The Unit editor: red and blue units fighting around holographic obstacles, with the balance view open on the right"></a></td>
+    <td width="50%"><a href="media/unit_editor/unit_editor_3.jpg"><img src="media/unit_editor/unit_editor_3.jpg" alt="The Unit editor in 1.3: two big armies on an open field, with the stats list open on the right"></a></td>
     <td width="50%"><a href="media/unit_editor/unit_editor_2.jpg"><img src="media/unit_editor/unit_editor_2.jpg" alt="A huge blue robot army charging a single veteran missile launcher in the Unit editor"></a></td>
   </tr>
 </table>
@@ -263,8 +285,7 @@ version in two.
 
 **You need:** Windows 10 or 11 (64-bit), a DirectX 12 graphics card, about 5 GB of disk space.
 
-**Faster Windows build (experimental):** the same game compiled differently, usually a little smoother on slower PCs;
-if anything feels wrong, use the normal download. On the same [release page](https://github.com/playopenz/OpenZ/releases/latest),
+**Two Windows versions, same game:** the **Normal** download (built with Mono) is the tested one and the one to start with. The **Faster** download (built with IL2CPP, experimental) runs about 20 % faster on weaker PCs. If the normal one feels slow on your PC, try the faster one; if anything feels wrong in it, go back to the normal one. On the same [release page](https://github.com/playopenz/OpenZ/releases/latest),
 download every part whose name starts with `OpenZ_1.3_win64_FASTER_EXPERIMENTAL` and unzip them all into the same
 folder, a different one from the normal game.
 

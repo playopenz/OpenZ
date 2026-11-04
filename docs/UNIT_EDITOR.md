@@ -5,9 +5,9 @@
 > **Part of OpenZ from version 1.2.** OpenZ is an ongoing project, and this page grows with every update.
 
 <p align="center">
-  <a href="../media/unit_editor/unit_editor_1.jpg"><img src="../media/unit_editor/unit_editor_1.jpg" alt="The Unit editor: blue and red units fighting around two holographic obstacles, the BALANCE tab open on the right showing every unit's build time" width="100%"></a>
+  <a href="../media/unit_editor/unit_editor_3.jpg"><img src="../media/unit_editor/unit_editor_3.jpg" alt="The Unit editor in 1.3: two big armies on an open field, with the stats list open on the right" width="100%"></a>
 </p>
-<p align="center"><i>The Unit editor with the BALANCE tab open.</i></p>
+<p align="center"><i>The Unit editor in 1.3, with the stats list open.</i></p>
 
 ## What it is
 
@@ -408,6 +408,11 @@ to the limit, and a drop that does not fit says so (*RED IS FULL: 200 UNITS, THE
   <a href="../media/unit_editor/unit_editor_2.jpg"><img src="../media/unit_editor/unit_editor_2.jpg" alt="A big battle in the Unit editor: a huge blue robot army charging a single red veteran missile launcher firing its rockets" width="100%"></a>
 </p>
 <p align="center"><i>A big battle: a blue army against a single veteran missile launcher.</i></p>
+
+<p align="center">
+  <a href="../media/unit_editor/unit_editor_4.jpg"><img src="../media/unit_editor/unit_editor_4.jpg" alt="A huge clash of both armies in the Unit editor, explosions in the middle of the field and the stats list on the right" width="100%"></a>
+</p>
+<p align="center"><i>Both armies at full size, meeting in the middle.</i></p>
 
 ## Tips for balance testing
 

@@ -14,9 +14,9 @@ Unity project, with every model, texture, sound and scene, is attached to each r
 
 ## Open, play and build
 
-1. Download **OpenZ_1.3_source_part1.zip** and **OpenZ_1.3_source_part2.zip** from the
+1. Download **OpenZ_1.4_source_part1.zip** and **OpenZ_1.4_source_part2.zip** from the
    [latest release](https://github.com/playopenz/OpenZ/releases/latest) and unzip both into the same place (they merge
-   into one `OpenZ_1.3_source` folder). In **Unity Hub** choose **Add → Add project from disk** and select that
+   into one `OpenZ_1.4_source` folder). In **Unity Hub** choose **Add → Add project from disk** and select that
    folder (the one that holds `Assets/`, `Packages/` and `ProjectSettings/`). The first open rebuilds `Library/` and
    takes a while.
 2. Open `Assets/OpenZ/Scenes/MainMenu.unity` and press **Play**. All four levels are also playable directly:

@@ -1,5 +1,73 @@
 # OpenZ change log
 
+## OpenZ 1.4 (7 Nov 2026)
+
+OpenZ is a free remake of the original Z (The Bitmap Brothers, 1996), the real-time strategy game where flags and territory decide the battle and time is the only resource. Version 1.4 brings MAYHEM, a fourth difficulty that hides the battlefield under the fog of war; drivers who jump out of their tanks; new camera and build options; a faster game; and many changes and fixes.
+
+**Downloads:** `OpenZ_1.4_win64_part1_of_2.zip` and `part2_of_2` (Windows 10 / 11, 64-bit: unzip both into the same folder), `OpenZ_1.4_mac_EXPERIMENTAL_part1_of_2.tar.xz` and `part2_of_2` (Apple chip and Intel), `OpenZ_1.4_linux_EXPERIMENTAL_part1_of_2.tar.xz` and `part2_of_2` (also for the Steam Deck; unpack both parts into the same folder) and the source code in two parts.
+
+### New
+
+- MAYHEM, a fourth difficulty after HARD: the computer plays as on HARD, and the whole battlefield starts under the fog of war. A drifting cloud opens wherever your units, buildings and flags have been, and ground you have explored stays open for the whole match. Enemies in unexplored ground stay hidden: on the battlefield, on the minimap, and under the pointer too (no box, name or health bar gives them away). MAYHEM keeps its own high scores, and the end screen names it. EASY, MEDIUM and HARD have no fog, and there is no fog row in OPTIONS.
+- MAYHEM's cloud is drawn for each kind of planet: soft mist layers over the desert, rolling cloud banks over the city, the jungle and the volcano, all tinted like the ground below. The cover never stands still: it thins and thickens slowly, back and forth, so now and then you catch a glimpse of the ground underneath.
+- MAYHEM: capture a radar and its fog opens in a wide circle round it (48 m), growing out smoothly over a couple of seconds.
+- MAYHEM: the enemy builds 10 % faster. Every unit and gun in its fort and factories is ready in 90 % of the time the same one takes in yours (a grunt in about 65 seconds instead of 72). Your own build times, and EASY, MEDIUM and HARD, are as before.
+- EXIT DRIVER for the light, medium and heavy tank and the mech (the button above the unit panel, or E): the hatch opens and the driver springs out fast with one quick flip and lands on his feet beside the hull, then walks off. For 30 seconds no robot climbs in by himself, so you can right-click the robot you want onto it and put in a new driver.
+- A tank or the mech whose driver jumps out or is sniped stops dead in that moment and its guns fall silent: no more driving, turning or firing until someone climbs back in.
+- Better drivers make better tanks: a light, medium or heavy tank or the mech with a driver who is not a grunt steps aside from incoming shells a little faster and turns into the step a little quicker. A small edge, not a new trick: grunt drivers and every other vehicle dodge exactly as before.
+- Rally points from the minimap: after SET RALLY, a click on the minimap sets the rally point there, just as on the battlefield (a right-click works too with nothing selected), and Shift with clicks makes a route.
+- OPTIONS, GAME tab: RANGE RINGS ON SELECTED UNITS. FADE, the default, shows the firing-range rings for about 2 seconds after you select, as before. ALWAYS keeps them on for as long as your units stay selected.
+- Build menus have one REPEAT switch with three answers for when the list runs out: OFF (the factory goes idle), LAST (the last unit keeps being built, the default as before) or ALL (the whole list loops, each finished unit going back to the end). The computer never loops its lists.
+- OPTIONS, GAME tab: three new camera rows. SCROLL SPEED (50 to 300 %) sets how fast the map moves with the keys, the screen edge and dragging. RIGHT-DRAG SCROLL: hold the right mouse button and drag to move the map; a quick right-click still gives the order. MIDDLE MOUSE, in place of FREE CAMERA: TURN VIEW, DRAG MAP, or DRAG MAP with Alt to turn the view. The defaults play as before, and if you had switched FREE CAMERA off you get DRAG MAP.
+- Robots standing near the enemy fort's door with nothing to do run inside by themselves and finish the fort, as soon as no enemy robot, vehicle or ground gun guards the gate. Your own orders and HOLD POSITION come first, vehicles still go in only when you click, and the computer storms forts as before.
+- UNIT EDITOR: the drop count has X10 and X20 beside X1, X3 and X5, so big battles are set up in a few clicks (X10 = 2 rows of 5, X20 = 4 rows of 5, neatly spaced).
+- UNIT EDITOR: the NUKE grows a new glowing mushroom cloud with a hot core and fine detail. Its stem fades away first while the head still glows, and its column of fire is gone before the head starts to thin, so nothing bright shows through the fading cloud. Then the head thins out on its own, and the dust rolls out in puffs of many sizes that settle softly into the ground. The bomber that brings it shows only a light streak of speed. The nukes in the levels are unchanged.
+
+### Changed
+
+- One Windows download for everyone, in two parts instead of three: there is nothing to choose any more.
+- Gatling: 10 % more range (16.5 m instead of 15 m) and 15 % more damage per shot (45 instead of 39). It fires as fast as before. Every gatling gets it, yours and the computer's; custom unit stats saved before 1.4 keep the old gatling until RESET STATS.
+- Laser robot: closer to Z's feel. Its gun glows green for a moment before each shot, and the beam then flies a little quicker (45 m/s instead of 37.5 m/s) with a slimmer, crisper glow. Damage, range, fire rate and sound are as before.
+- General EvilZod turns to face his target before he fires: his shots no longer leave before he has turned.
+- General EvilZod: his power dash recharges twice as fast (7.5 s instead of 15 s; a veteran 6.5 s instead of 13 s). When his dash is ready, he is being shot at and no enemy is inside his shot range, he dashes at the nearest enemy within 25 m by himself. Your orders and HOLD POSITION come first, and while he guards the blue fort as its last defense he keeps his spot.
+- Enemy health bars need a radar: while you own no standing radar, enemy robots, vehicles and guns show no health bar, not even when you point at them. Capture a radar and their bars fade in a moment later; lose your last one and they fade out. A radar flag both sides are fighting over does not make the bars blink. Your own units and empty vehicles and guns keep their bars, and the Unit editor shows every bar.
+- The dramatic music comes in as soon as a fort is really under fire, yours or the enemy's: one tank, one missile launcher or one squad that can hurt the fort is enough, even from long range, and it stays while the fort is being hit. It is clearly louder than the battle songs and the strongest tracks play first. It still comes at most once every 5 minutes, and MUSIC off in OPTIONS still turns it off.
+- A right-click on the enemy fort's door, the ground in front of its gate, or anywhere on its walls, roof or ramp sends your selected units in: a click area about eight times as big as before. A right-click on its tower guns, its big roof gun or its roof sniper still attacks them.
+- STOP sits at the end of the build progress bar, beside the unit it stops (it was in the bottom row), and a small X beside SET RALLY clears the rally points in place of the wide CLEAR RALLY button.
+- Camera: when the game slows down for a moment, the map lags behind less and has less to catch up. While the game runs smoothly nothing changes, and the scroll, zoom and turn speeds are the same.
+- Level 7's card on the battlefield screen plays its familiar flight over the volcano, recorded again sharp and smooth (the old clip froze now and then).
+- The loading screen now gets a level ready before it comes up (level 7 used to stutter through its first briefing). On the very first start of this version the loading screen can wait once, up to 30 seconds, with its bar moving.
+- MAYHEM: HEAD START's extra vehicles are locked off (MAYHEM was too easy with them). On EASY, MEDIUM and HARD, HEAD START works as you set it.
+- MAYHEM: enemies and empty vehicles come into view smoothly at the edge of the fog instead of popping up.
+- General EvilZod's win lines after a kill come much less often: he no longer has one for nearly every kill.
+- After jumping out of a vehicle, the driver always brings his gun up quickly once he lands, whatever kind of robot he is.
+- No unit keeps shooting at a vehicle once its crew is out, not even a fort's guns or the computer's units: they turn to real targets.
+- A robot killed by a rocket falls by his death only, without the hit wobble fighting it.
+
+### Faster
+
+- The game runs faster: the same battles take about 10 to 20 % less work from your computer, so busy views keep a higher frame rate.
+
+### Fixed
+
+- Radar voices tell the truth: "RADAR ACTIVATED" no longer shows for a ruined radar, "Radar lost." really plays when your last radar is taken (and never while another one of yours still stands), and it always pairs with "Radar is back online." when you win one back. Voice lines no longer talk over each other.
+- A turret blown off a tank or a gun still spins through the air; once it touches down it slides a little at most and then lies still: no more rising, hopping or sliding up a slope.
+- Level 7: each time a lava pterodactyl swoops down to attack where you can see it, it screams once, with one of three new screams picked at random and never the same one twice in a row. Before, an attack now and then came with no scream at all, or with one that did not sound right.
+- UNIT EDITOR: General EvilZod is offered only for the blue side, and Alan and Brad only for the red side (they were also listed under NEUTRAL).
+- The main menu shows the right version number (1.3's menu still read 1.2).
+- The level-select screen's blurred background is now a smooth soft blur; before it showed big flickering blocks.
+- After the briefing, the fog of war now eases in slowly and smoothly (about 1.6 s) instead of snapping in.
+- The rank star in the unit panel no longer stays huge after the HUD has been hidden.
+
+### Experimental
+
+- Touch screen and gamepad input (OPTIONS, ADVANCED tab, the TOUCH and GAMEPAD row).
+- The Mac and Linux versions, as separate downloads. Both were made on a Windows PC and have not been tried on a real machine yet.
+
+CHANGES & UPDATES in the main menu lists every change, those of 1.3, 1.2, 1.1 and 1.0 included, and opens with the main additions of 1.4.
+
+---
+
 ## OpenZ 1.3 (4 Nov 2026)
 
 OpenZ is a free remake of the original Z (The Bitmap Brothers, 1996), the real-time strategy game where flags and territory decide the battle and time is the only resource. Version 1.3 brings level 7, the Volcano, with lava that burns robots, erupting volcanoes, lava dragons and its own briefing scenes; General EvilZod as a hero for the blue side; a nuke in the Unit editor; and many changes and fixes.

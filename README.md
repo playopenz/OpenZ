@@ -44,19 +44,24 @@
 
 ## New in 1.4
 
-- **MAYHEM, a fourth difficulty after HARD:** the computer plays as on HARD and the whole battlefield starts under the
-  fog of war. A drifting cloud opens wherever your units, buildings and flags have been, enemies in unexplored ground
-  stay hidden, a captured radar opens a wide circle, and the enemy builds 10 % faster. MAYHEM keeps its own high scores.
-- **EXIT DRIVER** (or E) for the light, medium and heavy tank and the mech: the driver springs out with one quick flip.
-  A tank whose driver jumps out or is sniped stops dead and its guns fall silent until someone climbs back in.
-- **New options:** rally points from the minimap, range rings that can stay on, a REPEAT switch with OFF, LAST and ALL
-  for build lists, and SCROLL SPEED, RIGHT-DRAG SCROLL and a MIDDLE MOUSE row for the camera.
-- **Robots that finish the job:** robots waiting by the enemy fort's door run in once nobody guards it, and a
-  right-click anywhere on the enemy fort sends your units in. Enemy health bars need a standing radar.
-- **Unit editor:** X10 and X20 drops and a new glowing mushroom cloud for the NUKE. Plus a stronger gatling, a laser
-  robot whose gun glows before each shot, a General EvilZod who aims before he fires, and many fixes.
-- **Lighter and simpler:** the game runs about 10 to 20 % lighter, and there is one Windows download for everyone, in
-  two parts.
+- **MAYHEM, the hardest way to play Z:** the original Z was brutally hard, and we have turned it up to the max. A
+  fourth difficulty after HARD: the computer fights as on HARD, its factories build 10 % faster, and the whole
+  battlefield is buried under the fog of war. You see only what your robots have scouted, enemy armies stay hidden until
+  they are on top of you, and a captured radar is suddenly worth everything. MAYHEM keeps its own high scores.
+- **EXIT DRIVER: pick who drives your tanks.** Who sits in the hatch matters: a laser robot or a sniper at the wheel
+  fires his own weapon from the open hatch on top of the tank's gun, and any driver better than a grunt dodges incoming
+  shells faster. Now you can pull a grunt out (button or E) and put an elite in. It works the other way too: snipe the
+  enemy driver and his tank stops dead, ready for one of yours to climb in and drive it home.
+- **General EvilZod, meaner than ever:** he turns and aims before he fires his giant shotgun, his power dash recharges
+  twice as fast, and when he is shot at from too far away to answer, he dashes straight at the nearest enemy by himself.
+- **Robots that finish the job:** robots waiting at the enemy fort's door storm in the moment nobody guards it, and a
+  right-click anywhere on the enemy fort sends your army in. Enemy health bars now need a standing radar, so scouting
+  pays.
+- **More firepower:** the gatling reaches farther and hits harder, the laser robot's gun glows green before every shot,
+  and the Unit editor's NUKE got a brand-new glowing mushroom cloud, with X10 and X20 drops for huge battles in seconds.
+- **Play it your way:** rally points straight from the minimap, range rings that can stay on, a REPEAT switch for build
+  lists (OFF, LAST, ALL), SCROLL SPEED, RIGHT-DRAG SCROLL and a MIDDLE MOUSE row for the camera.
+- **Faster and simpler:** big battles run about 10 to 20 % lighter, and there is one Windows download for everyone.
 
 Full list: [change log](docs/CHANGELOG.md).
 

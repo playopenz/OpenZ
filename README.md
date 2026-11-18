@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/playopenz/OpenZ/releases/latest"><img src="https://img.shields.io/github/v/release/playopenz/OpenZ?label=version&color=c8102e&style=for-the-badge&cacheSeconds=3600" alt="Latest version"></a>
+  <a href="https://github.com/playopenz/OpenZ/releases/latest"><img src="https://img.shields.io/github/v/release/playopenz/OpenZ?label=version&color=c8102e&style=for-the-badge&cacheSeconds=1800" alt="Latest version"></a>
   <a href="https://github.com/playopenz/OpenZ/releases"><img src="https://img.shields.io/github/downloads/playopenz/OpenZ/total?label=downloads&color=6b7a3a&style=for-the-badge&cacheSeconds=3600" alt="Downloads"></a>
   <img src="https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20%7C%20Mac%20%7C%20Linux%20(experimental)-2b5797?style=for-the-badge" alt="Windows 10 / 11, Mac and Linux experimental">
   <img src="https://img.shields.io/badge/price-free-d9a441?style=for-the-badge" alt="Free">
@@ -20,7 +20,7 @@
 </p>
 
 <h2 align="center">
-  <a href="https://github.com/playopenz/OpenZ/releases/latest">Download OpenZ 1.5 for Windows (free, 2 parts, 2.8 GB)</a>
+  <a href="https://github.com/playopenz/OpenZ/releases/latest">Download OpenZ 1.5 for Windows (free, with the new OpenZ Launcher)</a>
 </h2>
 
 <p align="center">
@@ -30,8 +30,9 @@
 </p>
 
 <p align="center">
-  <b>3 steps:</b> download both parts, unzip them into the same folder, double-click <code>OpenZ Launcher.exe</code> and press PLAY.<br>
-  <b>New in 1.5: the OpenZ Launcher</b> keeps the game up to date with one click. No account, nothing to buy.<br>
+  <b>Start in 3 steps:</b> download the 2 Windows zip files, unzip them into one folder, double-click <code>OpenZ Launcher.exe</code> and press PLAY.<br>
+  After that you never download by hand again: the launcher installs every new version with one click.<br>
+  No account, nothing to buy.<br>
   <a href="#how-to-install">How to install</a> ·
   <a href="docs/CONTROLS.md">Controls</a> ·
   <a href="docs/SCREENSHOTS.md">Screenshots</a> ·
@@ -327,14 +328,15 @@ and sharing, keys and tips for balance testing.
 
 ## How to install
 
-**Unzip ALL parts into the same folder:** the Windows game comes in two parts, the Mac version in two and the Linux
-version in two.
+**Windows: download once, then the OpenZ Launcher keeps you up to date.** The first download comes as two zip files
+(GitHub allows at most 2 GB per file); after that, every update is one click on **UPDATE** in the launcher.
 
-1. **Download both parts** from the [release page](https://github.com/playopenz/OpenZ/releases/latest): `OpenZ_1.5_win64_part1_of_2.zip`
+1. **Download the 2 Windows zip files** from the [release page](https://github.com/playopenz/OpenZ/releases/latest): `OpenZ_1.5_win64_part1_of_2.zip`
    and `OpenZ_1.5_win64_part2_of_2.zip` (2.8 GB together).
 2. **Unzip both into the same folder** (right click, *Extract All*, and pick the same folder each time: Windows
    suggests a new folder for each part, so change it). `READ_ME_FIRST_ALL_PARTS.txt` in part 1 says the same.
-3. **Run `OpenZ Launcher.exe`** in the folder `OpenZ_1.5` and click **PLAY** (`OpenZ.exe` starts the game too). That's it.
+3. **Double-click `OpenZ Launcher.exe`** in the folder `OpenZ_1.5` and click **PLAY**. That's it. Always start the game
+   with the launcher: when a new version is out it shows **UPDATE**, and one click installs it.
 
 **The OpenZ Launcher (new in 1.5)** sits next to `OpenZ.exe` and keeps the game up to date. It asks the release page
 once whether a newer OpenZ is out. From the next version on, one click on **UPDATE** downloads the same parts you would

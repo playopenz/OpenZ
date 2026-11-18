@@ -418,7 +418,7 @@ what we need most is players and their feedback.
 
 ## Source code
 
-OpenZ is open source. The [`source`](source) folder holds the game code (C# and shaders) for reading. The **complete Unity project**
+**For developers only, not the game:** players download the `win64` zips (see [How to install](#how-to-install)). OpenZ is open source. The [`source`](source) folder holds the game code (C# and shaders) for reading. The **complete Unity project**
 with every model, texture, sound and scene is attached to each
 [release](https://github.com/playopenz/OpenZ/releases/latest) as `OpenZ_1.5_source_part1.zip`,
 `OpenZ_1.5_source_part2.zip` and `OpenZ_1.5_source_part3.zip` (unzip all three into the same folder). See

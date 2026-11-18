@@ -20,17 +20,18 @@
 </p>
 
 <h2 align="center">
-  <a href="https://github.com/playopenz/OpenZ/releases/latest">Download OpenZ 1.4 for Windows (free, 2 parts, 2.5 GB)</a>
+  <a href="https://github.com/playopenz/OpenZ/releases/latest">Download OpenZ 1.5 for Windows (free, 2 parts, 2.8 GB)</a>
 </h2>
 
 <p align="center">
   <a href="https://github.com/playopenz/OpenZ/releases/latest">Mac, Apple chip and Intel (experimental, 2 parts)</a> ·
   <a href="https://github.com/playopenz/OpenZ/releases/latest">Linux / Steam Deck (experimental, 2 parts)</a> ·
-  <a href="docs/CHANGELOG.md"><b>What's new in 1.4</b></a>
+  <a href="docs/CHANGELOG.md"><b>What's new in 1.5</b></a>
 </p>
 
 <p align="center">
-  Unzip ALL parts into the same folder, run <code>OpenZ.exe</code>, play. No install, no account, no launcher.<br>
+  <b>3 steps:</b> download both parts, unzip them into the same folder, double-click <code>OpenZ Launcher.exe</code> and press PLAY.<br>
+  <b>New in 1.5: the OpenZ Launcher</b> keeps the game up to date with one click. No account, nothing to buy.<br>
   <a href="#how-to-install">How to install</a> ·
   <a href="docs/CONTROLS.md">Controls</a> ·
   <a href="docs/SCREENSHOTS.md">Screenshots</a> ·
@@ -41,6 +42,37 @@
 </p>
 
 ---
+
+## New in 1.5
+
+- **The OpenZ Launcher (Windows):** no more downloading parts for every update. Unzip the game once, start it with
+  `OpenZ Launcher.exe`, and from now on one click on UPDATE downloads, checks and installs each new version by
+  itself; settings, high scores and Unit editor saves stay as they are.
+- **BRIDGE GAME, a new city level (level 18):** the three long bridges in the middle of the river lie blown up from the
+  start. Robots wade across, vehicles go round over the one bridge still standing, and a crane can rebuild a bridge.
+  A ruined harbour, half-sunk tower stumps and rusty containers in the water, the city's night storm, and a briefing for
+  each side.
+- **Two big tanks, the MAMMOTH and the BIZON:** the MAMMOTH fires two heavy barrels in turn and rams enemy vehicles onto
+  their backs. The BIZON, the toughest and slowest tank of all, climbs onto enemy vehicles and guns and crushes them
+  flat, and it is the only vehicle that can cross water, even lava, which slowly burns it. Place them in the Unit
+  editor, or take the empty ones that wait on level 18.
+- **Forts that crumble:** soot, cracks, breaches, broken parapets, smoke and fire, stage by stage, until a heavy ruin
+  stands just before the fort falls. Shoot the big cannon off the roof and it goes up in a towering geyser of fire.
+- **TACTICAL PAUSE** (OPTIONS, on by default): press Space to freeze time, look around, give orders and change
+  production, then Space again to go on.
+- **A livelier battlefield:** soft cloud shadows drift over the ground by day, rivers and swamps mirror the bridges and
+  units and glitter with sunlight and fire, shells throw up white spray, machine gun and sniper bullets sound different
+  on robots, metal and buildings, and a squad losing men calls for help on the radio. No more crocodile siren: your
+  robots shout a warning instead.
+- **Sharper battles:** bridges go down about as fast as in Z, grunts, psychos, the jeep and the GATLING hit robots on
+  foot harder, missile cannons on fort towers fire half as fast, and a marching squad sends its nearest robot off to
+  take a flag or man an empty gun on the way.
+- **Lighter on slow PCs and big screens:** GRAPHICS QUALITY LOW is much lighter on big screens, with a new 3D PICTURE
+  row (SHARP, SOFT, SOFTEST; not on the Mac), slow graphics chips get the lightest settings on the first start, and the
+  Mac version runs lighter on big screens and older Macs. Plus a ROBOT SIZE row, four big new explosions and many
+  fixes.
+
+Full list: [change log](docs/CHANGELOG.md).
 
 ## New in 1.4
 
@@ -151,12 +183,13 @@ And that's not all: several completely new ideas and brand-new content have been
 
 - **Pure Z gameplay.** Capture flags to take whole territories. More territory means faster factories. Storm the enemy
   fort, or blow it to pieces. No resources to mine, no base building: just war.
-- **Four classic levels, fully restored:** Level 2 (Desert), Level 7 (Volcano, new in 1.3), Level 16 (Jungle, new
-  in 1.1) and Level 17 ("Car Park"), polished to an extreme level of detail, with day, night and weather.
+- **Five classic levels, fully restored:** Level 2 (Desert), Level 7 (Volcano, new in 1.3), Level 16 (Jungle, new
+  in 1.1), Level 17 ("Car Park") and Level 18 ("Bridge Game", new in 1.5), polished to an extreme level of detail,
+  with day, night and weather.
 - **The whole robot army:** Grunts, Psychos, Snipers, Toughs, Pyros and Lasers, plus the brand-new **Electrobot**.
 - **Vehicles and guns:** jeeps, light, medium and heavy tanks, APCs, missile launchers, cranes, gatlings, howitzers,
-  missile cannons, and the brand-new **Mech**. Any robot can board an empty vehicle, and a sniper can shoot the driver
-  out of his seat.
+  missile cannons, the brand-new **Mech**, and from 1.5 two big tanks, the **MAMMOTH** and the **BIZON** (in the Unit
+  editor and on level 18). Any robot can board an empty vehicle, and a sniper can shoot the driver out of his seat.
 - **A real opponent:** the CPU is ported from the open-source Zod Engine, with Easy, Medium and Hard difficulty,
   and from 1.4 MAYHEM: Hard under the fog of war.
 - **Everything goes boom:** buildings break apart, bridges fall, wrecks burn, crews get thrown.
@@ -280,7 +313,7 @@ and grenade crates for your robots to pick up. Pause the fight at any moment, or
 On the right, every unit's stats sit side by side: the OpenZ values, the ZodEngine values, the values from the
 Z Wiki, and your own **Custom** set that you can edit and test straight away. A balance view compares all units at
 a glance. Save your setup to a file on your own disk and share it with friends, or send it to us if you find
-something interesting: OpenZ itself sends nothing anywhere.
+something interesting: the game itself sends nothing anywhere.
 
 **[Read the full guide to the Unit editor](docs/UNIT_EDITOR.md)**: every button, the stat sets, custom stats, saving
 and sharing, keys and tips for balance testing.
@@ -297,47 +330,57 @@ and sharing, keys and tips for balance testing.
 **Unzip ALL parts into the same folder:** the Windows game comes in two parts, the Mac version in two and the Linux
 version in two.
 
-1. **Download both parts** from the [release page](https://github.com/playopenz/OpenZ/releases/latest): `OpenZ_1.4_win64_part1_of_2.zip`
-   and `OpenZ_1.4_win64_part2_of_2.zip` (2.5 GB together).
+1. **Download both parts** from the [release page](https://github.com/playopenz/OpenZ/releases/latest): `OpenZ_1.5_win64_part1_of_2.zip`
+   and `OpenZ_1.5_win64_part2_of_2.zip` (2.8 GB together).
 2. **Unzip both into the same folder** (right click, *Extract All*, and pick the same folder each time: Windows
    suggests a new folder for each part, so change it). `READ_ME_FIRST_ALL_PARTS.txt` in part 1 says the same.
-3. **Run `OpenZ.exe`** in the folder `OpenZ_1.4`. That's it.
+3. **Run `OpenZ Launcher.exe`** in the folder `OpenZ_1.5` and click **PLAY** (`OpenZ.exe` starts the game too). That's it.
 
-> **Windows says "Windows protected your PC"?** Click **More info**, then **Run anyway**. It only appears because the
-> game is not signed by a company. OpenZ sends nothing anywhere, and the full source code is right here.
+**The OpenZ Launcher (new in 1.5)** sits next to `OpenZ.exe` and keeps the game up to date. It asks the release page
+once whether a newer OpenZ is out. From the next version on, one click on **UPDATE** downloads the same parts you would
+download by hand, checks every byte and the OpenZ signature, and swaps the new game in, while your settings, high
+scores and Unit editor saves stay as they are. It updates an OpenZ folder that is already there; it does not install
+the game into an empty folder, so new players unzip both parts once, as above. If anything goes wrong on the way (no
+internet, a damaged download, a full disk), the game you have stays playable.
+
+> **Windows says "Windows protected your PC"?** Click **More info**, then **Run anyway** (for `OpenZ Launcher.exe` too).
+> It only appears because the game is not signed by a company. The game itself sends nothing anywhere (the launcher
+> only talks to the release page, to look for and fetch new versions), and the full source code is right here.
 
 **You need:** Windows 10 or 11 (64-bit), a DirectX 12 graphics card, about 5 GB of disk space.
 
-**On a Mac (experimental):** download both parts, `OpenZ_1.4_mac_EXPERIMENTAL_part1_of_2.tar.xz` and
-`OpenZ_1.4_mac_EXPERIMENTAL_part2_of_2.tar.xz`, from the [release page](https://github.com/playopenz/OpenZ/releases/latest),
+**On a Mac (experimental):** download both parts, `OpenZ_1.5_mac_EXPERIMENTAL_part1_of_2.tar.xz` and
+`OpenZ_1.5_mac_EXPERIMENTAL_part2_of_2.tar.xz`, from the [release page](https://github.com/playopenz/OpenZ/releases/latest),
 and unpack them into the same folder with Terminal (double-clicking them in Finder would give two folders):
 
 ```
 cd ~/Downloads
-tar -xf OpenZ_1.4_mac_EXPERIMENTAL_part1_of_2.tar.xz && tar -xf OpenZ_1.4_mac_EXPERIMENTAL_part2_of_2.tar.xz
+tar -xf OpenZ_1.5_mac_EXPERIMENTAL_part1_of_2.tar.xz && tar -xf OpenZ_1.5_mac_EXPERIMENTAL_part2_of_2.tar.xz
 ```
 
 Then right-click the game and choose **Open** on the first start, because it is not signed with an Apple certificate
 (on macOS 15 and newer: System Settings, Privacy & Security, Open Anyway). It runs natively on Macs with an Apple chip
 and on Intel Macs. See `HOW_TO_START_ON_A_MAC.txt` inside.
 
-**On Linux or a Steam Deck (experimental):** download both parts, `OpenZ_1.4_linux_EXPERIMENTAL_part1_of_2.tar.xz` and
-`OpenZ_1.4_linux_EXPERIMENTAL_part2_of_2.tar.xz`, and unpack them into the same folder (or *Extract Here* on both, in
+**On Linux or a Steam Deck (experimental):** download both parts, `OpenZ_1.5_linux_EXPERIMENTAL_part1_of_2.tar.xz` and
+`OpenZ_1.5_linux_EXPERIMENTAL_part2_of_2.tar.xz`, and unpack them into the same folder (or *Extract Here* on both, in
 the same folder):
 
 ```
-tar -xf OpenZ_1.4_linux_EXPERIMENTAL_part1_of_2.tar.xz && tar -xf OpenZ_1.4_linux_EXPERIMENTAL_part2_of_2.tar.xz
+tar -xf OpenZ_1.5_linux_EXPERIMENTAL_part1_of_2.tar.xz && tar -xf OpenZ_1.5_linux_EXPERIMENTAL_part2_of_2.tar.xz
 ```
 
 Then start `OpenZ.x86_64` (run `chmod +x OpenZ.x86_64` once if needed). On the Steam Deck use Desktop Mode, no Proton
 needed. See `HOW_TO_START_ON_LINUX.txt` inside.
 
-The Mac and Linux versions have not been tried on real machines yet: please tell us how they run.
+The Mac and Linux versions are made on a Windows PC and we have not tried them on real machines ourselves: please tell
+us how they run.
 For 1.1 there are also [community builds by fenio](https://github.com/fenio/OpenZ/releases/tag/v1.1-unofficial.1) (unofficial, native Apple Silicon + Intel Mac and Linux).
 
 **Want to be sure your download is the original?** The checksums are in
-[RELEASE_SHA256.txt](https://github.com/playopenz/OpenZ/releases/latest/download/RELEASE_SHA256.txt). Check yours in
-PowerShell: `Get-FileHash OpenZ_1.4_win64_part1_of_2.zip -Algorithm SHA256`
+[RELEASE_SHA256.txt](https://github.com/playopenz/OpenZ/releases/latest/download/RELEASE_SHA256.txt), and
+`RELEASE_SHA256.txt.sig` beside it is the OpenZ signature of that list (the OpenZ Launcher checks it). Check yours in
+PowerShell: `Get-FileHash OpenZ_1.5_win64_part1_of_2.zip -Algorithm SHA256`
 
 **New to Z?** Read [how to play and all the controls](docs/CONTROLS.md), or open CONTROLS in the game's main menu.
 
@@ -369,14 +412,15 @@ is already reported, add a thumbs up or a comment, and follow the fix. No accoun
 Screenshots and short clips help squash bugs much faster. We are not taking code or art contributions right now:
 what we need most is players and their feedback.
 
-**Enjoying it?** Drop a  on this page and share OpenZ with every Z fan you know!
+**Enjoying it?** Drop a star on this page and share OpenZ with every Z fan you know!
 
 ## Source code
 
 OpenZ is open source. The [`source`](source) folder holds the game code (C# and shaders) for reading. The **complete Unity project**
 with every model, texture, sound and scene is attached to each
-[release](https://github.com/playopenz/OpenZ/releases/latest) as `OpenZ_1.4_source_part1.zip` and
-`OpenZ_1.4_source_part2.zip`. See [Building OpenZ from source](docs/BUILDING.md) (Unity 6.3 LTS).
+[release](https://github.com/playopenz/OpenZ/releases/latest) as `OpenZ_1.5_source_part1.zip`,
+`OpenZ_1.5_source_part2.zip` and `OpenZ_1.5_source_part3.zip` (unzip all three into the same folder). See
+[Building OpenZ from source](docs/BUILDING.md) (Unity 6.3 LTS).
 
 ## License
 
@@ -394,7 +438,17 @@ Full credits: [CREDITS.md](docs/CREDITS.md).
 
 ## FAQ
 
-**What is new in the 1.4 update?**
+**What is new in the 1.5 update?**
+Mind the gap, soldiers, the bridges are down! 1.5 brings **BRIDGE GAME** (level 18), a ruined harbour city on a wide
+river whose three long bridges lie blown up from the start: robots wade across while vehicles take the long way round.
+Two big tanks join the Unit editor and wait, empty, on level 18: the **MAMMOTH**, which rams enemy vehicles onto their
+backs, and the **BIZON**, which crushes tanks and guns flat and is the only vehicle that can cross water. Forts crumble
+stage by stage, the roof cannon goes up in a geyser of fire, cloud shadows drift over the battlefield, and **TACTICAL
+PAUSE** lets you freeze time and give orders. On top of that: the **OpenZ Launcher**, which keeps the Windows game up
+to date from the next version on, ROBOT SIZE and 3D PICTURE options, crocodile warnings from your own robots, bullet
+hits you can hear, and many fixes. Everything is in the [change log](docs/CHANGELOG.md).
+
+**What was new in the 1.4 update?**
 Ready for real chaos, soldiers? 1.4 brings **MAYHEM**, a fourth difficulty after HARD where the whole battlefield
 starts under the fog of war: scout ahead, capture radars and watch what hides in the cloud, while the enemy builds
 10 % faster. Drivers can now **jump out of their tanks** (EXIT DRIVER, or E), and a tank without a driver stops dead.
@@ -430,16 +484,17 @@ strike groups, new options and a huge pile of polish and fixes on every level. E
 [change log](docs/CHANGELOG.md).
 
 **Do you have a Mac version?**
-Yes, an **experimental** one in two parts: `OpenZ_1.4_mac_EXPERIMENTAL_part1_of_2.tar.xz` and
-`OpenZ_1.4_mac_EXPERIMENTAL_part2_of_2.tar.xz` on the [release page](https://github.com/playopenz/OpenZ/releases/latest).
-From 1.3 it runs natively on Macs with an Apple chip and on Intel Macs. Unpack both parts into the same folder with
+Yes, an **experimental** one in two parts: `OpenZ_1.5_mac_EXPERIMENTAL_part1_of_2.tar.xz` and
+`OpenZ_1.5_mac_EXPERIMENTAL_part2_of_2.tar.xz` on the [release page](https://github.com/playopenz/OpenZ/releases/latest).
+From 1.3 it runs natively on Macs with an Apple chip and on Intel Macs, and 1.5 makes it lighter on big screens and
+older Macs (Macs with Intel or AMD graphics start on LOW). Unpack both parts into the same folder with
 Terminal (see [How to install](#how-to-install)). It is not signed, so on the first start right-click the game and
-choose **Open** (see `HOW_TO_START_ON_A_MAC.txt` inside). It has not been tried on real Macs yet, so please tell us
-how it runs for you.
+choose **Open** (see `HOW_TO_START_ON_A_MAC.txt` inside). We have not tried it on a real Mac ourselves, so please tell
+us how it runs for you.
 
 **Is there a Linux version?**
-Yes, from 1.2 an **experimental** one, from 1.3 in two parts: `OpenZ_1.4_linux_EXPERIMENTAL_part1_of_2.tar.xz` and
-`OpenZ_1.4_linux_EXPERIMENTAL_part2_of_2.tar.xz` on the [release page](https://github.com/playopenz/OpenZ/releases/latest)
+Yes, from 1.2 an **experimental** one, from 1.3 in two parts: `OpenZ_1.5_linux_EXPERIMENTAL_part1_of_2.tar.xz` and
+`OpenZ_1.5_linux_EXPERIMENTAL_part2_of_2.tar.xz` on the [release page](https://github.com/playopenz/OpenZ/releases/latest)
 (unpack both into the same folder), also for the Steam Deck (Desktop Mode, no Proton needed). See
 `HOW_TO_START_ON_LINUX.txt` inside. Our fan **fenio** also made unofficial **OpenZ 1.1** builds for Linux and for Mac
 (native Apple Silicon and Intel): [fenio's 1.1 builds](https://github.com/fenio/OpenZ/releases/tag/v1.1-unofficial.1).
